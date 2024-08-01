@@ -1,5 +1,6 @@
 const allQuestions = {
-    Functions: null
+    Functions: null,
+    Factoring: null
 };
 
 async function loadQuestionLibrary(libraryName) {
