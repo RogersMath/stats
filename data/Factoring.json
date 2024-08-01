@@ -1,0 +1,548 @@
+[
+  {
+    "questionId": "FA001",
+    "question": "What is the factored form of x² - 16?",
+    "answers": [
+      "(x + 4)(x - 4)",
+      "(x - 2)(x + 2)",
+      "(x - 8)(x + 8)",
+      "(x - 4)²"
+    ],
+    "correct": "(x + 4)(x - 4)",
+    "explanation": "This is a difference of squares: a² - b² = (a + b)(a - b). Here, a = x and b = 4.",
+    "category": "Difference of Squares",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA002",
+    "question": "Which of these is an example of a difference of squares?",
+    "answers": [
+      "x² + 4x + 4",
+      "x² - 9",
+      "x² + 2x - 3",
+      "x² + 6x + 9"
+    ],
+    "correct": "x² - 9",
+    "explanation": "x² - 9 is a difference of squares because it can be written as x² - 3², which fits the form a² - b².",
+    "category": "Difference of Squares",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA003",
+    "question": "What is the factored form of 4x² - 25?",
+    "answers": [
+      "(2x + 5)(2x - 5)",
+      "(4x + 5)(x - 5)",
+      "(2x + 5)(x - 5)",
+      "(4x - 5)(4x + 5)"
+    ],
+    "correct": "(2x + 5)(2x - 5)",
+    "explanation": "This is a difference of squares: (2x)² - 5². The factored form is (2x + 5)(2x - 5).",
+    "category": "Difference of Squares",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA004",
+    "question": "Which of these expressions is NOT a difference of squares?",
+    "answers": [
+      "x² - y²",
+      "9a² - 16b²",
+      "p² - 1",
+      "4m² - 4n²"
+    ],
+    "correct": "4m² - 4n²",
+    "explanation": "4m² - 4n² is not a difference of squares because it can be factored as 4(m² - n²), which is a common factor times a difference of squares.",
+    "category": "Difference of Squares",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA005",
+    "question": "What is the factored form of x² - 2x + 1?",
+    "answers": [
+      "(x - 1)²",
+      "(x + 1)²",
+      "x(x - 2) + 1",
+      "(x - 1)(x + 1)"
+    ],
+    "correct": "(x - 1)²",
+    "explanation": "This is a perfect square trinomial. It fits the pattern a² - 2ab + b², which factors to (a - b)². Here, a = x and b = 1.",
+    "category": "Perfect Squares",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA006",
+    "question": "Which of these is a perfect square trinomial?",
+    "answers": [
+      "x² + 6x + 9",
+      "x² + 5x + 6",
+      "x² - 4x + 3",
+      "x² - x - 2"
+    ],
+    "correct": "x² + 6x + 9",
+    "explanation": "x² + 6x + 9 is a perfect square trinomial because it fits the pattern a² + 2ab + b², where a = x and b = 3.",
+    "category": "Perfect Squares",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA007",
+    "question": "What is the factored form of 25x² - 90x + 81?",
+    "answers": [
+      "(5x - 9)²",
+      "(5x + 9)²",
+      "(5x - 9)(5x + 9)",
+      "25(x - 3)²"
+    ],
+    "correct": "(5x - 9)²",
+    "explanation": "This is a perfect square trinomial. It fits the pattern a² - 2ab + b², which factors to (a - b)². Here, a = 5x and b = 9.",
+    "category": "Perfect Squares",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA008",
+    "question": "Which of these expressions is equivalent to (x + 3)²?",
+    "answers": [
+      "x² + 6x + 9",
+      "x² + 3x + 9",
+      "x² + 9x + 9",
+      "x² + 3x + 3"
+    ],
+    "correct": "x² + 6x + 9",
+    "explanation": "(x + 3)² expands to x² + 2(3)x + 3², which is x² + 6x + 9.",
+    "category": "Perfect Squares",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA009",
+    "question": "What is the factored form of 16x² - 24x + 9?",
+    "answers": [
+      "(4x - 3)²",
+      "(2x - 3)²",
+      "(4x + 3)²",
+      "16(x - 3/4)²"
+    ],
+    "correct": "(4x - 3)²",
+    "explanation": "This is a perfect square trinomial. It fits the pattern a² - 2ab + b², which factors to (a - b)². Here, a = 4x and b = 3.",
+    "category": "Perfect Squares",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA010",
+    "question": "Which of these is NOT a perfect square trinomial?",
+    "answers": [
+      "x² + 10x + 25",
+      "4x² - 12x + 9",
+      "9x² - 24x + 16",
+      "x² + 2x + 1"
+    ],
+    "correct": "9x² - 24x + 16",
+    "explanation": "9x² - 24x + 16 is not a perfect square trinomial. The middle term should be -30x for it to be (3x - 4)².",
+    "category": "Perfect Squares",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA011",
+    "question": "What is the factored form of x² - 49?",
+    "answers": [
+      "(x + 7)(x - 7)",
+      "(x + 49)(x - 49)",
+      "(x - 7)²",
+      "x(x - 49)"
+    ],
+    "correct": "(x + 7)(x - 7)",
+    "explanation": "This is a difference of squares: a² - b² = (a + b)(a - b). Here, a = x and b = 7.",
+    "category": "Difference of Squares",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA012",
+    "question": "Which of these can be factored as a difference of squares?",
+    "answers": [
+      "x² + 16",
+      "x² - 16y²",
+      "x² - 8x + 16",
+      "x² + 8x + 16"
+    ],
+    "correct": "x² - 16y²",
+    "explanation": "x² - 16y² is a difference of squares because it can be written as (x)² - (4y)², which fits the form a² - b².",
+    "category": "Difference of Squares",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA013",
+    "question": "What is the factored form of 36x² - 1?",
+    "answers": [
+      "(6x + 1)(6x - 1)",
+      "(3x + 1)(12x - 1)",
+      "(36x + 1)(x - 1)",
+      "(18x + 1)(2x - 1)"
+    ],
+    "correct": "(6x + 1)(6x - 1)",
+    "explanation": "This is a difference of squares: (6x)² - 1². The factored form is (6x + 1)(6x - 1).",
+    "category": "Difference of Squares",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA014",
+    "question": "Which of these is equivalent to (x - 5)²?",
+    "answers": [
+      "x² - 10x + 25",
+      "x² + 10x + 25",
+      "x² - 25",
+      "x² - 5x + 25"
+    ],
+    "correct": "x² - 10x + 25",
+    "explanation": "(x - 5)² expands to x² - 2(5)x + 5², which is x² - 10x + 25.",
+    "category": "Perfect Squares",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA015",
+    "question": "What is the factored form of 4x² + 12x + 9?",
+    "answers": [
+      "(2x + 3)²",
+      "(x + 3)²",
+      "4(x + 3/2)²",
+      "(4x + 9)²"
+    ],
+    "correct": "(2x + 3)²",
+    "explanation": "This is a perfect square trinomial. It fits the pattern a² + 2ab + b², which factors to (a + b)². Here, a = 2x and b = 3.",
+    "category": "Perfect Squares",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA016",
+    "question": "Which of these expressions represents (3x - 2y)²?",
+    "answers": [
+      "9x² - 12xy + 4y²",
+      "9x² + 12xy + 4y²",
+      "9x² - 6xy + 4y²",
+      "9x² + 6xy - 4y²"
+    ],
+    "correct": "9x² - 12xy + 4y²",
+    "explanation": "(3x - 2y)² expands to (3x)² - 2(3x)(2y) + (2y)², which is 9x² - 12xy + 4y².",
+    "category": "Perfect Squares",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA017",
+    "question": "What is the factored form of x² - 10x + 25?",
+    "answers": [
+      "(x - 5)²",
+      "(x + 5)²",
+      "(x - 5)(x - 5)",
+      "x(x - 10) + 25"
+    ],
+    "correct": "(x - 5)²",
+    "explanation": "This is a perfect square trinomial. It fits the pattern a² - 2ab + b², which factors to (a - b)². Here, a = x and b = 5.",
+    "category": "Perfect Squares",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA018",
+    "question": "Which of these is a difference of squares?",
+    "answers": [
+      "x² - 4",
+      "x² + 4",
+      "x² - 2x + 1",
+      "x² + 2x + 1"
+    ],
+    "correct": "x² - 4",
+    "explanation": "x² - 4 is a difference of squares because it can be written as x² - 2², which fits the form a² - b².",
+    "category": "Difference of Squares",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA019",
+    "question": "What is the factored form of 49x² - 64y²?",
+    "answers": [
+      "(7x + 8y)(7x - 8y)",
+      "(49x + 64y)(x - y)",
+      "(7x + 8y)(7x + 8y)",
+      "(49x - 8y)(x + 8y)"
+    ],
+    "correct": "(7x + 8y)(7x - 8y)",
+    "explanation": "This is a difference of squares: (7x)² - (8y)². The factored form is (7x + 8y)(7x - 8y).",
+    "category": "Difference of Squares",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA020",
+    "question": "Which of these expressions is equivalent to (2x + 3y)²?",
+    "answers": [
+      "4x² + 12xy + 9y²",
+      "4x² + 6xy + 9y²",
+      "4x² - 12xy + 9y²",
+      "4x² + 3xy + 9y²"
+    ],
+    "correct": "4x² + 12xy + 9y²",
+    "explanation": "(2x + 3y)² expands to (2x)² + 2(2x)(3y) + (3y)², which is 4x² + 12xy + 9y².",
+    "category": "Perfect Squares",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA021",
+    "question": "What is the factored form of x² + 5x + 6?",
+    "answers": [
+      "(x + 2)(x + 3)",
+      "(x + 1)(x + 6)",
+      "(x + 3)(x + 2)",
+      "(x - 2)(x - 3)"
+    ],
+    "correct": "(x + 2)(x + 3)",
+    "explanation": "This is a trinomial where ac = 6 and b = 5. The factors of 6 that add up to 5 are 2 and 3, so the factored form is (x + 2)(x + 3).",
+    "category": "Trinomials",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA022",
+    "question": "Which of these is the factored form of x² - 7x + 12?",
+    "answers": [
+      "(x - 3)(x - 4)",
+      "(x + 3)(x + 4)",
+      "(x - 3)(x + 4)",
+      "(x + 3)(x - 4)"
+    ],
+    "correct": "(x - 3)(x - 4)",
+    "explanation": "For this trinomial, we need two numbers that multiply to give 12 and add to give -7. These numbers are -3 and -4, so the factored form is (x - 3)(x - 4).",
+    "category": "Trinomials",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA023",
+    "question": "What is the greatest common factor (GCF) of 12x³y² and 18x²y³?",
+    "answers": [
+      "6x²y²",
+      "12x²y²",
+      "18x²y²",
+      "6xy"
+    ],
+    "correct": "6x²y²",
+    "explanation": "The GCF is the product of the greatest common factors of the coefficients (6) and each variable to its lowest common power (x² and y²).",
+    "category": "Greatest Common Factor",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA024",
+    "question": "What is the factored form of 2x² + 7x + 3?",
+    "answers": [
+      "(2x + 1)(x + 3)",
+      "(x + 1)(2x + 3)",
+      "(2x + 3)(x + 1)",
+      "This trinomial cannot be factored"
+    ],
+    "correct": "(2x + 1)(x + 3)",
+    "explanation": "For this trinomial with a leading coefficient of 2, we need two numbers that multiply to give 2 * 3 = 6 and add to give 7. These numbers are 1 and 6, so the factored form is (2x + 1)(x + 3).",
+    "category": "Trinomials",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA025",
+    "question": "Which of these expressions is NOT factorable?",
+    "answers": [
+      "x² + 5x + 6",
+      "x² + x + 1",
+      "x² - 9x + 20",
+      "x² - 4x + 4"
+    ],
+    "correct": "x² + x + 1",
+    "explanation": "x² + x + 1 is a prime trinomial and cannot be factored further over the real numbers.",
+    "category": "Trinomials",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA026",
+    "question": "What is the factored form of 3x² - 5x - 2?",
+    "answers": [
+      "(3x + 1)(x - 2)",
+      "(3x - 1)(x + 2)",
+      "(x + 1)(3x - 2)",
+      "(x - 1)(3x + 2)"
+    ],
+    "correct": "(3x + 1)(x - 2)",
+    "explanation": "For this trinomial with a leading coefficient of 3, we need two numbers that multiply to give 3 * (-2) = -6 and add to give -5. These numbers are 1 and -6, so the factored form is (3x + 1)(x - 2).",
+    "category": "Trinomials",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA027",
+    "question": "What is the first step in factoring 6x² + 13x + 6?",
+    "answers": [
+      "Find the GCF",
+      "Split the middle term",
+      "Guess and check factors",
+      "Rewrite as a difference of squares"
+    ],
+    "correct": "Find the GCF",
+    "explanation": "When factoring any polynomial, the first step is always to check for and factor out the Greatest Common Factor (GCF) if one exists.",
+    "category": "Factoring Strategy",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA028",
+    "question": "What is the factored form of 5x² + 3x - 2?",
+    "answers": [
+      "(5x - 2)(x + 1)",
+      "(x - 2)(5x + 1)",
+      "(5x + 2)(x - 1)",
+      "This trinomial cannot be factored"
+    ],
+    "correct": "(5x - 2)(x + 1)",
+    "explanation": "For this trinomial with a leading coefficient of 5, we need two numbers that multiply to give 5 * (-2) = -10 and add to give 3. These numbers are -2 and 5, so the factored form is (5x - 2)(x + 1).",
+    "category": "Trinomials",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA029",
+    "question": "Which of these is the factored form of 2x² - 7x - 15?",
+    "answers": [
+      "(2x + 3)(x - 5)",
+      "(2x - 3)(x + 5)",
+      "(x + 3)(2x - 5)",
+      "(x - 3)(2x + 5)"
+    ],
+    "correct": "(2x + 3)(x - 5)",
+    "explanation": "For this trinomial with a leading coefficient of 2, we need two numbers that multiply to give 2 * (-15) = -30 and add to give -7. These numbers are 3 and -10, so the factored form is (2x + 3)(x - 5).",
+    "category": "Trinomials",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA030",
+    "question": "What is the GCF of 8x³y² - 12x²y³ + 16xy⁴?",
+    "answers": [
+      "4xy²",
+      "8xy²",
+      "4x²y²",
+      "There is no common factor"
+    ],
+    "correct": "4xy²",
+    "explanation": "The GCF is the product of the greatest common factor of the coefficients (4) and each variable to its lowest common power (x and y²).",
+    "category": "Greatest Common Factor",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA031",
+    "question": "What is the factored form of x³ + 4x² + 4x?",
+    "answers": [
+      "x(x + 2)²",
+      "x(x² + 4x + 4)",
+      "x(x + 2)(x + 2)",
+      "(x + 2)(x² + 2x)"
+    ],
+    "correct": "x(x + 2)²",
+    "explanation": "First, factor out the GCF of x. Then, recognize the remaining x² + 4x + 4 as a perfect square trinomial (x + 2)². So the full factorization is x(x + 2)².",
+    "category": "Polynomial Factoring",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA032",
+    "question": "Which of these expressions is completely factored?",
+    "answers": [
+      "2(x² - 4)",
+      "2(x + 2)(x - 2)",
+      "2x(x - 2)",
+      "(2x + 4)(x - 2)"
+    ],
+    "correct": "2(x + 2)(x - 2)",
+    "explanation": "2(x² - 4) can be further factored as a difference of squares. 2x(x - 2) and (2x + 4)(x - 2) both have common factors that can be extracted. 2(x + 2)(x - 2) is completely factored.",
+    "category": "Polynomial Factoring",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA033",
+    "question": "What is the factored form of 6x² - x - 2?",
+    "answers": [
+      "(2x + 1)(3x - 2)",
+      "(3x + 1)(2x - 2)",
+      "(2x - 1)(3x + 2)",
+      "(6x + 1)(x - 2)"
+    ],
+    "correct": "(2x + 1)(3x - 2)",
+    "explanation": "For this trinomial with a leading coefficient of 6, we need two numbers that multiply to give 6 * (-2) = -12 and add to give -1. These numbers are 3 and -4, so the factored form is (2x + 1)(3x - 2).",
+    "category": "Trinomials",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA034",
+    "question": "Which of these is NOT a step in factoring a quadratic expression?",
+    "answers": [
+      "Check for a common factor",
+      "Look for a difference of squares",
+      "Try to factor as a trinomial",
+      "Divide all terms by the variable"
+    ],
+    "correct": "Divide all terms by the variable",
+    "explanation": "Checking for a common factor, looking for a difference of squares, and trying to factor as a trinomial are all valid steps in factoring a quadratic expression. Dividing all terms by the variable is not a standard factoring step.",
+    "category": "Factoring Strategy",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FA035",
+    "question": "What is the factored form of 2x² + 5x - 3?",
+    "answers": [
+      "(2x - 1)(x + 3)",
+      "(x - 1)(2x + 3)",
+      "(2x + 3)(x - 1)",
+      "This trinomial cannot be factored"
+    ],
+    "correct": "(2x - 1)(x + 3)",
+    "explanation": "For this trinomial with a leading coefficient of 2, we need two numbers that multiply to give 2 * (-3) = -6 and add to give 5. These numbers are -1 and 6, so the factored form is (2x - 1)(x + 3).",
+    "category": "Trinomials",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA036",
+    "question": "What is the first step in factoring 3x³ - 12x² + 12x?",
+    "answers": [
+      "Factor out the GCF",
+      "Use the difference of cubes formula",
+      "Group the terms",
+      "Factor the quadratic part"
+    ],
+    "correct": "Factor out the GCF",
+    "explanation": "The first step in factoring any polynomial is to factor out the Greatest Common Factor (GCF). In this case, the GCF is 3x, resulting in 3x(x² - 4x + 4).",
+    "category": "Polynomial Factoring",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA037",
+    "question": "Which of these expressions has a GCF of 5xy?",
+    "answers": [
+      "5x²y - 10xy² + 15x²y²",
+      "5x²y² + 10x³y - 20xy",
+      "25x²y + 15xy² - 10y",
+      "5xy + 10x + 15y"
+    ],
+    "correct": "5x²y - 10xy² + 15x²y²",
+    "explanation": "In 5x²y - 10xy² + 15x²y², each term contains 5xy as a factor. The other expressions either don't have 5xy as a common factor in all terms or have a smaller GCF.",
+    "category": "Greatest Common Factor",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FA038",
+    "question": "What is the factored form of x³ - x²y - 6xy² + 6y³?",
+    "answers": [
+      "(x - 2y)(x² + xy - 3y²)",
+      "(x + y)(x² - 2xy + 3y²)",
+      "(x - y)(x² + 2xy - 6y²)",
+      "(x + 3y)(x² - 4xy + 2y²)"
+    ],
+    "correct": "(x - 2y)(x² + xy - 3y²)",
+    "explanation": "This expression can be factored by grouping. Group the first two and last two terms, factor out common factors, then factor out the common binomial: (x²(x - y) - 6y²(x - y)) = (x - y)(x² + 6y). The second factor can be further factored as (x + 2y)(x - 3y), giving the final result (x - 2y)(x² + xy - 3y²).",
+    "category": "Polynomial Factoring",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FA039",
+    "question": "Which of these is the factored form of 3x² - 14x + 8?",
+    "answers": [
+      "(3x - 2)(x - 4)",
+      "(x - 2)(3x - 4)",
+      "(3x - 4)(x - 2)",
+      "This trinomial cannot be factored"
+    ],
+    "correct": "(3x - 2)(x - 4)",
+    "explanation": "For this trinomial with a leading coefficient of 3, we need two numbers that multiply to give 3 * 8 = 24 and add to give -14. These numbers are -2 and -12, so the factored form is (3x - 2)(x - 4).",
+    "category": "Trinomials",
+    "difficulty": "Hard"
+  }
+]
