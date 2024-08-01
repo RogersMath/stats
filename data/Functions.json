@@ -57,7 +57,7 @@
   },
   {
     "questionId": "FQ005",
-    "question": "What is a one-to-one function?",
+    "question": "What is an injective (one-to-one) function?",
     "answers": [
       "A function where each element of the codomain is paired with at most one element of the domain",
       "A function where each input has multiple outputs",
