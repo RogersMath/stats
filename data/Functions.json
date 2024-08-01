@@ -547,17 +547,17 @@
   },
   {
     "questionId": "FQ040",
-    "question": "What is the additive identity for functions?",
+    "question": "What is the identity function for composition?",
     "answers": [
       "f(x) = 0",
       "f(x) = 1",
       "f(x) = x",
-      "f(x) = -x"
+      "f(x) = x²"
     ],
-    "correct": "f(x) = 0",
-    "explanation": "The additive identity for functions is f(x) = 0, as adding this to any function doesn't change the function.",
+    "correct": "f(x) = x",
+    "explanation": "The identity function f(x) = x is the identity element for function composition. When composed with any function g, it returns g: (f ∘ g)(x) = g(x) and (g ∘ f)(x) = g(x).",
     "category": "Function Properties",
-    "difficulty": "Hard"
+    "difficulty": "Medium"
   },
   {
     "questionId": "FQ041",
