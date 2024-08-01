@@ -1,0 +1,1122 @@
+[
+  {
+    "questionId": "FQ001",
+    "question": "Which of the following best defines a function?",
+    "answers": [
+      "A relation where each input has exactly one output",
+      "A mathematical equation with variables",
+      "A graph with x and y coordinates",
+      "A set of ordered pairs"
+    ],
+    "correct": "A relation where each input has exactly one output",
+    "explanation": "A function is defined as a relation where each element of the domain (input) corresponds to exactly one element of the codomain (output).",
+    "category": "Function Definition",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ002",
+    "question": "What does f(x) represent in function notation?",
+    "answers": [
+      "The output value of the function for input x",
+      "The input value of the function",
+      "The product of f and x",
+      "The sum of f and x"
+    ],
+    "correct": "The output value of the function for input x",
+    "explanation": "In function notation, f(x) represents the output value of the function f for the input value x.",
+    "category": "Function Notation",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ003",
+    "question": "Which of the following is NOT a way to represent a function?",
+    "answers": [
+      "A circle",
+      "An equation",
+      "A table of values",
+      "A graph"
+    ],
+    "correct": "A circle",
+    "explanation": "While equations, tables of values, and graphs can represent functions, a circle by itself is not a representation of a function.",
+    "category": "Function Representation",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ004",
+    "question": "What is the domain of a rational function?",
+    "answers": [
+      "All real numbers except where the denominator equals zero",
+      "All real numbers",
+      "Only positive numbers",
+      "Only integers"
+    ],
+    "correct": "All real numbers except where the denominator equals zero",
+    "explanation": "The domain of a rational function includes all real numbers except those that make the denominator zero, as division by zero is undefined.",
+    "category": "Domain and Range",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ005",
+    "question": "What is a one-to-one function?",
+    "answers": [
+      "A function where each element of the codomain is paired with at most one element of the domain",
+      "A function where each input has multiple outputs",
+      "A function that only uses the numbers 1 and 0",
+      "A function that always gives an output of 1"
+    ],
+    "correct": "A function where each element of the codomain is paired with at most one element of the domain",
+    "explanation": "A one-to-one (injective) function is one where each element of the codomain is paired with at most one element of the domain, ensuring unique outputs for each input.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ006",
+    "question": "Which of the following always represents a function?",
+    "answers": [
+      "y = x²",
+      "x = y²",
+      "y = ±√x",
+      "x = ±√y"
+    ],
+    "correct": "y = x²",
+    "explanation": "y = x² always represents a function because for each x value, there is exactly one y value. The other options can have multiple y values for a single x value.",
+    "category": "Function Definition",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ007",
+    "question": "What is the range of an exponential function of the form f(x) = aˣ, where a > 1?",
+    "answers": [
+      "y > 0",
+      "y ≥ 0",
+      "All real numbers",
+      "y < 0"
+    ],
+    "correct": "y > 0",
+    "explanation": "For an exponential function f(x) = aˣ where a > 1, the output is always positive, approaching but never reaching zero. Thus, the range is all positive numbers (y > 0).",
+    "category": "Domain and Range",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ008",
+    "question": "What does it mean for a function to be periodic?",
+    "answers": [
+      "The function repeats its values at regular intervals",
+      "The function always increases",
+      "The function has no solution",
+      "The function is defined only for integers"
+    ],
+    "correct": "The function repeats its values at regular intervals",
+    "explanation": "A periodic function is one that repeats its values at regular intervals or periods. Trigonometric functions are common examples of periodic functions.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ009",
+    "question": "If f(x) = x² - 4x + 3 and g(x) = 2x + 1, what is (f ∘ g)(x)?",
+    "answers": [
+      "(2x + 1)² - 4(2x + 1) + 3",
+      "2(x² - 4x + 3) + 1",
+      "x² - 4x + 5",
+      "4x² + 4x + 4"
+    ],
+    "correct": "(2x + 1)² - 4(2x + 1) + 3",
+    "explanation": "(f ∘ g)(x) means f(g(x)). Replace every x in f(x) with g(x), which is (2x + 1). This gives (2x + 1)² - 4(2x + 1) + 3.",
+    "category": "Function Composition",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ010",
+    "question": "If f(x) = x³ - 4x and f(a) = f(b), what can we conclude about a and b?",
+    "answers": [
+      "a and b could be equal or have opposite signs",
+      "a = b",
+      "a = -b",
+      "a and b are always irrational numbers"
+    ],
+    "correct": "a and b could be equal or have opposite signs",
+    "explanation": "For a cubic function minus a linear term, f(x) = f(-x) for all x except 0. So, a and b could be equal (if both are 0), or they could have opposite signs (for any non-zero value).",
+    "category": "Function Properties",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ011",
+    "question": "What is a piecewise function?",
+    "answers": [
+      "A function defined by different expressions for different parts of its domain",
+      "A function that can only be graphed in pieces",
+      "A function that always results in whole numbers",
+      "A function that is not continuous"
+    ],
+    "correct": "A function defined by different expressions for different parts of its domain",
+    "explanation": "A piecewise function is defined by different rules or expressions for different intervals of its domain.",
+    "category": "Function Types",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ012",
+    "question": "What does it mean for a function to be even?",
+    "answers": [
+      "f(-x) = f(x) for all x in the domain",
+      "f(-x) = -f(x) for all x in the domain",
+      "The function only accepts even numbers as input",
+      "The function only produces even numbers as output"
+    ],
+    "correct": "f(-x) = f(x) for all x in the domain",
+    "explanation": "An even function is symmetric about the y-axis, meaning f(-x) = f(x) for all x in its domain.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ013",
+    "question": "What is the inverse of the function f(x) = 3x + 1?",
+    "answers": [
+      "f⁻¹(x) = (x - 1) / 3",
+      "f⁻¹(x) = 3x - 1",
+      "f⁻¹(x) = x / 3 + 1",
+      "f⁻¹(x) = (x + 1) / 3"
+    ],
+    "correct": "f⁻¹(x) = (x - 1) / 3",
+    "explanation": "To find the inverse, swap x and y, then solve for y. This gives y = (x - 1) / 3.",
+    "category": "Inverse Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ014",
+    "question": "What is the domain of the function f(x) = ln(x - 2)?",
+    "answers": [
+      "x > 2",
+      "x ≥ 2",
+      "All real numbers",
+      "x < 2"
+    ],
+    "correct": "x > 2",
+    "explanation": "The domain of a logarithmic function includes all values that make the argument positive. For ln(x - 2), we need x - 2 > 0, which simplifies to x > 2.",
+    "category": "Domain and Range",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ015",
+    "question": "What is a surjective function?",
+    "answers": [
+      "A function where every element of the codomain is mapped to by at least one element of the domain",
+      "A function where each element of the domain maps to a unique element of the codomain",
+      "A function that is both injective and bijective",
+      "A function that maps every element of the domain to itself"
+    ],
+    "correct": "A function where every element of the codomain is mapped to by at least one element of the domain",
+    "explanation": "A surjective (onto) function is one where every element of the codomain is mapped to by at least one element of the domain.",
+    "category": "Function Properties",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ016",
+    "question": "Which of the following is an example of a transcendental function?",
+    "answers": [
+      "f(x) = sin(x)",
+      "f(x) = x²",
+      "f(x) = 2x + 1",
+      "f(x) = x³ - 3x + 2"
+    ],
+    "correct": "f(x) = sin(x)",
+    "explanation": "Transcendental functions are functions that are not algebraic. Trigonometric functions like sin(x) are examples of transcendental functions.",
+    "category": "Function Types",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ017",
+    "question": "What is the difference between a function's zeros and its roots?",
+    "answers": [
+      "There is no difference; they are the same thing",
+      "Zeros are x-intercepts, roots are y-intercepts",
+      "Zeros are real numbers, roots can be complex",
+      "Zeros are outputs, roots are inputs"
+    ],
+    "correct": "There is no difference; they are the same thing",
+    "explanation": "The zeros and roots of a function are the same thing: the x-values where the function equals zero, or the x-intercepts of its graph.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ018",
+    "question": "What does it mean for a function to be continuous?",
+    "answers": [
+      "The function has no breaks, jumps, or holes in its graph",
+      "The function is defined for all real numbers",
+      "The function always increases or always decreases",
+      "The function can be drawn without lifting the pencil from the paper"
+    ],
+    "correct": "The function has no breaks, jumps, or holes in its graph",
+    "explanation": "A continuous function is one where the graph has no breaks, jumps, or holes. More formally, it means the function approaches the same value as its input approaches any point in its domain.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ019",
+    "question": "What is the composition of f(x) = √x and g(x) = x² + 1?",
+    "answers": [
+      "(f ∘ g)(x) = √(x² + 1)",
+      "(f ∘ g)(x) = x + 1",
+      "(f ∘ g)(x) = x⁴ + 1",
+      "(f ∘ g)(x) = (√x)² + 1"
+    ],
+    "correct": "(f ∘ g)(x) = √(x² + 1)",
+    "explanation": "In function composition (f ∘ g)(x), we apply g first, then f. So we replace x in f(x) with g(x): f(g(x)) = √(x² + 1).",
+    "category": "Function Composition",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ020",
+    "question": "What is the range of the function f(x) = |x|?",
+    "answers": [
+      "y ≥ 0",
+      "All real numbers",
+      "y > 0",
+      "y ≤ 0"
+    ],
+    "correct": "y ≥ 0",
+    "explanation": "The absolute value function always returns a non-negative number, including zero. Therefore, its range is all non-negative real numbers, or y ≥ 0.",
+    "category": "Domain and Range",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ021",
+    "question": "What type of function has a constant rate of change?",
+    "answers": [
+      "Linear function",
+      "Quadratic function",
+      "Exponential function",
+      "Logarithmic function"
+    ],
+    "correct": "Linear function",
+    "explanation": "A linear function has a constant rate of change, meaning its graph is a straight line.",
+    "category": "Function Types",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ022",
+    "question": "What does it mean for a function to be odd?",
+    "answers": [
+      "f(-x) = -f(x) for all x in the domain",
+      "f(-x) = f(x) for all x in the domain",
+      "The function only accepts odd numbers as input",
+      "The function only produces odd numbers as output"
+    ],
+    "correct": "f(-x) = -f(x) for all x in the domain",
+    "explanation": "An odd function is symmetric about the origin, meaning f(-x) = -f(x) for all x in its domain.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ023",
+    "question": "Which of the following is true for a bijective function?",
+    "answers": [
+      "It is both injective and surjective",
+      "It is neither injective nor surjective",
+      "It is injective but not surjective",
+      "It is surjective but not injective"
+    ],
+    "correct": "It is both injective and surjective",
+    "explanation": "A bijective function is both injective (one-to-one) and surjective (onto), meaning each element of the codomain is paired with exactly one element of the domain.",
+    "category": "Function Properties",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ024",
+    "question": "What is the domain of the function f(x) = 1 / (x² - 4)?",
+    "answers": [
+      "All real numbers except 2 and -2",
+      "All real numbers",
+      "All real numbers except 0",
+      "All positive real numbers"
+    ],
+    "correct": "All real numbers except 2 and -2",
+    "explanation": "The domain includes all real numbers except those that make the denominator zero. x² - 4 = 0 when x = 2 or x = -2.",
+    "category": "Domain and Range",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ025",
+    "question": "What is a rational function?",
+    "answers": [
+      "A function that can be expressed as the ratio of two polynomials",
+      "A function that always gives rational number outputs",
+      "A function that only accepts rational numbers as inputs",
+      "A function that can be graphed using only straight lines"
+    ],
+    "correct": "A function that can be expressed as the ratio of two polynomials",
+    "explanation": "A rational function is defined as the ratio of two polynomial functions, where the denominator is not equal to zero.",
+    "category": "Function Types",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ026",
+    "question": "What is the relationship between exponential and logarithmic functions?",
+    "answers": [
+      "They are inverse functions of each other",
+      "They are identical functions",
+      "Exponential functions are always greater than logarithmic functions",
+      "Logarithmic functions are always greater than exponential functions"
+    ],
+    "correct": "They are inverse functions of each other",
+    "explanation": "Exponential and logarithmic functions are inverse functions of each other. For example, y = log₂(x) is the inverse of y = 2ˣ.",
+    "category": "Function Relationships",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ027",
+    "question": "What is the vertical line test used for?",
+    "answers": [
+      "To determine if a relation is a function",
+      "To find the y-intercept of a function",
+      "To determine if a function is even or odd",
+      "To find the roots of a function"
+    ],
+    "correct": "To determine if a relation is a function",
+    "explanation": "The vertical line test is used to determine if a relation is a function. If any vertical line intersects the graph more than once, the relation is not a function.",
+    "category": "Function Definition",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ028",
+    "question": "What is the horizontal line test used for?",
+    "answers": [
+      "To determine if a function is one-to-one",
+      "To find the x-intercept of a function",
+      "To determine if a relation is a function",
+      "To find the domain of a function"
+    ],
+    "correct": "To determine if a function is one-to-one",
+    "explanation": "The horizontal line test is used to determine if a function is one-to-one (injective). If any horizontal line intersects the graph more than once, the function is not one-to-one.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ029",
+    "question": "What is the end behavior of the function f(x) = x³ - 2x + 1?",
+    "answers": [
+      "As x → ∞, f(x) → ∞ and as x → -∞, f(x) → -∞",
+      "As x → ∞, f(x) → -∞ and as x → -∞, f(x) → ∞",
+      "As x → ∞, f(x) → 1 and as x → -∞, f(x) → 1",
+      "As x → ∞, f(x) → 0 and as x → -∞, f(x) → 0"
+    ],
+    "correct": "As x → ∞, f(x) → ∞ and as x → -∞, f(x) → -∞",
+    "explanation": "For a cubic function with a positive leading coefficient, as x approaches positive infinity, f(x) approaches positive infinity, and as x approaches negative infinity, f(x) approaches negative infinity.",
+    "category": "Function Behavior",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ030",
+    "question": "What is the difference between a function's relative maximum and absolute maximum?",
+    "answers": [
+      "A relative maximum is the highest point in a local region, while an absolute maximum is the highest point over the entire domain",
+      "A relative maximum can only occur at endpoints, while an absolute maximum can occur anywhere",
+      "A relative maximum is always positive, while an absolute maximum can be negative",
+      "There is no difference; they are the same thing"
+    ],
+    "correct": "A relative maximum is the highest point in a local region, while an absolute maximum is the highest point over the entire domain",
+    "explanation": "A relative (local) maximum is the highest point in some open interval of the function's domain, while an absolute (global) maximum is the highest point over the entire domain of the function.",
+    "category": "Function Behavior",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ031",
+    "question": "What is the degree of the polynomial function f(x) = 2x⁴ - 3x² + 5x - 1?",
+    "answers": [
+      "4",
+      "2",
+      "5",
+      "Degree cannot be determined"
+    ],
+    "correct": "4",
+    "explanation": "The degree of a polynomial is the highest power of the variable. In this case, the highest power of x is 4.",
+    "category": "Polynomial Functions",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ032",
+    "question": "What type of function is f(x) = 2ˣ?",
+    "answers": [
+      "Exponential",
+      "Logarithmic",
+      "Polynomial",
+      "Rational"
+    ],
+    "correct": "Exponential",
+    "explanation": "A function in the form f(x) = aˣ, where a is a positive constant not equal to 1, is an exponential function.",
+    "category": "Function Types",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ033",
+    "question": "What is the range of the cosine function?",
+    "answers": [
+      "[-1, 1]",
+      "All real numbers",
+      "(0, 1]",
+      "[-1, 1)"
+    ],
+    "correct": "[-1, 1]",
+    "explanation": "The cosine function oscillates between -1 and 1, inclusive. Therefore, its range is [-1, 1].",
+    "category": "Trigonometric Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ034",
+    "question": "What is the domain of f(x) = √x?",
+    "answers": [
+      "[0, ∞)",
+      "All real numbers",
+      "(-∞, 0]",
+      "(0, ∞)"
+    ],
+    "correct": "[0, ∞)",
+    "explanation": "The square root is defined for non-negative numbers, so the domain includes 0 and all positive real numbers.",
+    "category": "Domain and Range",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ035",
+    "question": "Which function is its own inverse?",
+    "answers": [
+      "f(x) = x",
+      "f(x) = x²",
+      "f(x) = 2x + 1",
+      "f(x) = 1/x"
+    ],
+    "correct": "f(x) = x",
+    "explanation": "The function f(x) = x is its own inverse because applying it twice returns the original input.",
+    "category": "Inverse Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ036",
+    "question": "What is the vertex form of a quadratic function f(x) = ax² + bx + c?",
+    "answers": [
+      "f(x) = a(x - h) + k",
+      "f(x) = a(x - h)² + k",
+      "f(x) = (x - h)(x - k)",
+      "f(x) = ax(x - h) + k"
+    ],
+    "correct": "f(x) = a(x - h)² + k",
+    "explanation": "The vertex form of a quadratic function is f(x) = a(x - h)² + k, where (h, k) is the vertex of the parabola.",
+    "category": "Quadratic Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ037",
+    "question": "What is the slope of a vertical line?",
+    "answers": [
+      "Undefined",
+      "Zero",
+      "Infinity",
+      "One"
+    ],
+    "correct": "Undefined",
+    "explanation": "A vertical line has an undefined slope because the change in x is zero, leading to division by zero.",
+    "category": "Linear Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ038",
+    "question": "What is the derivative of a constant function?",
+    "answers": [
+      "0",
+      "1",
+      "The constant itself",
+      "Undefined"
+    ],
+    "correct": "0",
+    "explanation": "The derivative of a constant function is always 0, as the rate of change is zero everywhere.",
+    "category": "Calculus",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ039",
+    "question": "What is log₁₀(100)?",
+    "answers": [
+      "2",
+      "10",
+      "100",
+      "1000"
+    ],
+    "correct": "2",
+    "explanation": "log₁₀(100) = 2 because 10² = 100.",
+    "category": "Logarithms",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ040",
+    "question": "What is the additive identity for functions?",
+    "answers": [
+      "f(x) = 0",
+      "f(x) = 1",
+      "f(x) = x",
+      "f(x) = -x"
+    ],
+    "correct": "f(x) = 0",
+    "explanation": "The additive identity for functions is f(x) = 0, as adding this to any function doesn't change the function.",
+    "category": "Function Properties",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ041",
+    "question": "What is the reciprocal of the cosine function?",
+    "answers": [
+      "Secant",
+      "Tangent",
+      "Cosecant",
+      "Arctangent"
+    ],
+    "correct": "Secant",
+    "explanation": "The secant function is defined as sec(x) = 1/cos(x), making it the reciprocal of cosine.",
+    "category": "Trigonometric Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ042",
+    "question": "What is the domain of ln(x)?",
+    "answers": [
+      "(0, ∞)",
+      "[0, ∞)",
+      "All real numbers",
+      "(-∞, 0)"
+    ],
+    "correct": "(0, ∞)",
+    "explanation": "The natural logarithm is defined only for positive real numbers, so its domain is (0, ∞).",
+    "category": "Domain and Range",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ043",
+    "question": "What is the range of f(x) = x²?",
+    "answers": [
+      "[0, ∞)",
+      "All real numbers",
+      "(0, ∞)",
+      "(-∞, 0]"
+    ],
+    "correct": "[0, ∞)",
+    "explanation": "The square of any real number is non-negative, including 0, so the range of x² is [0, ∞).",
+    "category": "Domain and Range",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ044",
+    "question": "What is the multiplicative identity for functions?",
+    "answers": [
+      "f(x) = 1",
+      "f(x) = 0",
+      "f(x) = x",
+      "f(x) = -1"
+    ],
+    "correct": "f(x) = 1",
+    "explanation": "The multiplicative identity for functions is f(x) = 1, as multiplying any function by this doesn't change the function.",
+    "category": "Function Properties",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ045",
+    "question": "What is the inverse of f(x) = eˣ?",
+    "answers": [
+      "ln(x)",
+      "log(x)",
+      "e^(-x)",
+      "1/e^x"
+    ],
+    "correct": "ln(x)",
+    "explanation": "The natural logarithm function ln(x) is the inverse of the exponential function e^x.",
+    "category": "Inverse Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ046",
+    "question": "What is the limit of (sin x)/x as x approaches 0?",
+    "answers": [
+      "1",
+      "0",
+      "Undefined",
+      "Infinity"
+    ],
+    "correct": "1",
+    "explanation": "This is a famous limit in calculus. As x approaches 0, (sin x)/x approaches 1.",
+    "category": "Calculus",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ047",
+    "question": "What is the degree of a constant polynomial?",
+    "answers": [
+      "0",
+      "1",
+      "Undefined",
+      "Infinity"
+    ],
+    "correct": "0",
+    "explanation": "A constant polynomial (e.g., f(x) = 5) has no variable terms, so its degree is 0.",
+    "category": "Polynomial Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ048",
+    "question": "What is the degree of the polynomial f(x) = 3x⁵ - 2x³ + 7x - 4?",
+    "answers": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ],
+    "correct": "5",
+    "explanation": "The degree of a polynomial is the highest power of the variable. In this polynomial, the highest power of x is 5.",
+    "category": "Polynomial Functions",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ049",
+    "question": "What is e^(ln(x))?",
+    "answers": [
+      "x",
+      "e^x",
+      "ln(e^x)",
+      "x^e"
+    ],
+    "correct": "x",
+    "explanation": "e^(ln(x)) simplifies to x because the natural exponential and natural logarithm are inverse functions.",
+    "category": "Exponential and Logarithmic Functions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ050",
+    "question": "What is the slope of y = mx + b?",
+    "answers": [
+      "m",
+      "b",
+      "x",
+      "y"
+    ],
+    "correct": "m",
+    "explanation": "In the equation y = mx + b of a straight line, m represents the slope of the line.",
+    "category": "Linear Functions",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ051",
+    "question": "What is the vertex form of a quadratic function?",
+    "answers": [
+      "ax² + bx + c",
+      "a(x - h)² + k",
+      "(x - r₁)(x - r₂)",
+      "y = mx + b"
+    ],
+    "correct": "a(x - h)² + k",
+    "explanation": "The vertex form of a quadratic function is a(x - h)² + k, where (h, k) is the vertex of the parabola.",
+    "category": "Quadratic Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ052",
+    "question": "What is the domain of the function f(x) = 1 / (x - 2)?",
+    "answers": [
+      "All real numbers",
+      "x ≠ 2",
+      "x > 2",
+      "All real numbers except 0"
+    ],
+    "correct": "x ≠ 2",
+    "explanation": "The domain includes all real numbers except where the denominator equals zero, which is when x = 2.",
+    "category": "Domain and Range",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ053",
+    "question": "What is the range of the function f(x) = e^x?",
+    "answers": [
+      "All real numbers",
+      "(0, ∞)",
+      "[0, ∞)",
+      "(-∞, 0)"
+    ],
+    "correct": "(0, ∞)",
+    "explanation": "The exponential function e^x is always positive for any real input, approaching but never reaching zero.",
+    "category": "Exponential Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ054",
+    "question": "What is the inverse of the function f(x) = 2x + 5?",
+    "answers": [
+      "f⁻¹(x) = 2x - 5",
+      "f⁻¹(x) = (x - 5) / 2",
+      "f⁻¹(x) = x/2 - 5/2",
+      "f⁻¹(x) = -2x + 5"
+    ],
+    "correct": "f⁻¹(x) = (x - 5) / 2",
+    "explanation": "To find the inverse, swap x and y, then solve for y. This gives (x - 5) / 2.",
+    "category": "Inverse Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ055",
+    "question": "What is the fundamental theorem of algebra?",
+    "answers": [
+      "All polynomials have roots",
+      "Every polynomial of degree n has exactly n roots",
+      "Every non-zero polynomial has at least one complex root",
+      "Polynomials can always be factored over the real numbers"
+    ],
+    "correct": "Every non-zero polynomial has at least one complex root",
+    "explanation": "The fundamental theorem of algebra states that every non-zero polynomial has at least one complex root.",
+    "category": "Polynomial Functions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ056",
+    "question": "Which of the following is a characteristic of rational functions?",
+    "answers": [
+      "They always have a y-intercept",
+      "They can have vertical asymptotes",
+      "They are always continuous",
+      "They never cross the x-axis"
+    ],
+    "correct": "They can have vertical asymptotes",
+    "explanation": "Rational functions can have vertical asymptotes where the denominator equals zero, which is a key characteristic of these functions.",
+    "category": "Rational Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ057",
+    "question": "What is the difference quotient formula?",
+    "answers": [
+      "(f(x+h) - f(x)) / h",
+      "f'(x) = lim[h→0] (f(x+h) - f(x)) / h",
+      "(f(b) - f(a)) / (b - a)",
+      "f(x+h) - f(x)"
+    ],
+    "correct": "(f(x+h) - f(x)) / h",
+    "explanation": "The difference quotient formula is (f(x+h) - f(x)) / h, which represents the average rate of change of a function.",
+    "category": "Calculus",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ058",
+    "question": "What is the definition of a function?",
+    "answers": [
+      "A set of ordered pairs",
+      "A rule that assigns each input to exactly one output",
+      "A mathematical equation",
+      "A graph in the xy-plane"
+    ],
+    "correct": "A rule that assigns each input to exactly one output",
+    "explanation": "A function is defined as a rule that assigns each element of the input set (domain) to exactly one element of the output set (codomain).",
+    "category": "Function Basics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ059",
+    "question": "What is the graph of y = |x| called?",
+    "answers": [
+      "Parabola",
+      "V-shape",
+      "Absolute value function",
+      "Linear function"
+    ],
+    "correct": "Absolute value function",
+    "explanation": "The graph of y = |x| is called the absolute value function. It forms a V-shape with its vertex at the origin.",
+    "category": "Function Graphs",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ060",
+    "question": "What is the identity function?",
+    "answers": [
+      "f(x) = 0",
+      "f(x) = x",
+      "f(x) = 1",
+      "f(x) = x/x"
+    ],
+    "correct": "f(x) = x",
+    "explanation": "The identity function f(x) = x returns its input unchanged for all values in its domain.",
+    "category": "Function Types",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ061",
+    "question": "What is a zero of a function?",
+    "answers": [
+      "When the function equals zero",
+      "An x-value where f(x) = 0",
+      "The y-intercept of the function",
+      "When the function is undefined"
+    ],
+    "correct": "An x-value where f(x) = 0",
+    "explanation": "A zero of a function is an x-value (input) that makes the function equal to zero, i.e., f(x) = 0.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ062",
+    "question": "What is the definition of a one-to-one function?",
+    "answers": [
+      "Each y-value corresponds to at most one x-value",
+      "Each x-value corresponds to exactly one y-value",
+      "The function is continuous",
+      "The function passes the vertical line test"
+    ],
+    "correct": "Each y-value corresponds to at most one x-value",
+    "explanation": "A one-to-one (injective) function is one where each element of the codomain is paired with at most one element of the domain.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ063",
+    "question": "What is the limit of (1 + 1/n)^n as n approaches infinity?",
+    "answers": [
+      "1",
+      "e",
+      "Infinity",
+      "Does not exist"
+    ],
+    "correct": "e",
+    "explanation": "This limit is the definition of the mathematical constant e, approximately equal to 2.71828.",
+    "category": "Calculus",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ064",
+    "question": "What is a composite function?",
+    "answers": [
+      "A function of a function",
+      "The sum of two functions",
+      "The product of two functions",
+      "A function that can be factored"
+    ],
+    "correct": "A function of a function",
+    "explanation": "A composite function is formed by using the output of one function as the input of another function, often notated as (f ∘ g)(x).",
+    "category": "Function Composition",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ065",
+    "question": "What is the domain of the function f(x) = √(x² - 4)?",
+    "answers": [
+      "All real numbers",
+      "x ≤ -2 or x ≥ 2",
+      "(-2, 2)",
+      "-2 < x < 2"
+    ],
+    "correct": "x ≤ -2 or x ≥ 2",
+    "explanation": "The domain includes all values that make the expression under the square root non-negative. x² - 4 ≥ 0 when x ≤ -2 or x ≥ 2.",
+    "category": "Domain and Range",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ066",
+    "question": "What is the y-intercept of the exponential function f(x) = 3 · 2ˣ?",
+    "answers": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": "3",
+    "explanation": "For an exponential function f(x) = a · bˣ, the y-intercept is the value of f(0), which is a · b⁰ = a · 1 = a. Here, a = 3.",
+    "category": "Exponential Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ067",
+    "question": "What is the definition of a periodic function?",
+    "answers": [
+      "A function that is always increasing",
+      "A function that repeats its values at regular intervals",
+      "A function with a finite domain",
+      "A function that can be graphed as a straight line"
+    ],
+    "correct": "A function that repeats its values at regular intervals",
+    "explanation": "A periodic function is one that repeats its values at regular intervals or periods.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ068",
+    "question": "What is the difference between a function's zeros and its roots?",
+    "answers": [
+      "Zeros are real, roots can be complex",
+      "There is no difference",
+      "Zeros are on the y-axis, roots are on the x-axis",
+      "Zeros are inputs, roots are outputs"
+    ],
+    "correct": "There is no difference",
+    "explanation": "The terms 'zeros' and 'roots' are used interchangeably in function theory. Both refer to values of x where f(x) = 0.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ069",
+    "question": "What is the definition of a rational function?",
+    "answers": [
+      "A function with rational coefficients",
+      "A function that can be expressed as a ratio of polynomials",
+      "A function whose graph is a straight line",
+      "A function with a rational domain"
+    ],
+    "correct": "A function that can be expressed as a ratio of polynomials",
+    "explanation": "A rational function is defined as the ratio of two polynomial functions, where the denominator is not identically zero.",
+    "category": "Function Types",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ070",
+    "question": "What is the composition of f(x) = x² and g(x) = x + 1?",
+    "answers": [
+      "(f ∘ g)(x) = x² + 1",
+      "(f ∘ g)(x) = (x + 1)²",
+      "(f ∘ g)(x) = x³ + x",
+      "(f ∘ g)(x) = x² + 2x + 1"
+    ],
+    "correct": "(f ∘ g)(x) = (x + 1)²",
+    "explanation": "In function composition (f ∘ g)(x), we apply g first, then f. So we replace x in f(x) with g(x): f(g(x)) = (x + 1)².",
+    "category": "Function Composition",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ071",
+    "question": "How does the graph of f(x) = |x - 3| compare to the graph of f(x) = |x|?",
+    "answers": [
+      "It's shifted 3 units left",
+      "It's shifted 3 units right",
+      "It's shifted 3 units up",
+      "It's shifted 3 units down"
+    ],
+    "correct": "It's shifted 3 units right",
+    "explanation": "The transformation x - 3 inside the absolute value shifts the graph 3 units to the right compared to the basic absolute value function.",
+    "category": "Function Transformations",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ072",
+    "question": "What is the end behavior of f(x) = x⁴ - 2x² + 3?",
+    "answers": [
+      "f(x) → 0 as x → ±∞",
+      "f(x) → ∞ as x → ±∞",
+      "f(x) → -∞ as x → ±∞",
+      "f(x) → 3 as x → ±∞"
+    ],
+    "correct": "f(x) → ∞ as x → ±∞",
+    "explanation": "For polynomial functions, the end behavior is determined by the leading term. Here, x⁴ dominates as x gets very large or very small.",
+    "category": "Polynomial Functions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ073",
+    "question": "What is the definition of a function's range?",
+    "answers": [
+      "All possible input values",
+      "All possible output values",
+      "The set of x-coordinates",
+      "The domain of the inverse function"
+    ],
+    "correct": "All possible output values",
+    "explanation": "The range of a function is the set of all possible output values (y-values) for the given function.",
+    "category": "Domain and Range",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ074",
+    "question": "What is the graph of y = log(x) called?",
+    "answers": [
+      "Exponential curve",
+      "Logarithmic curve",
+      "Parabola",
+      "Hyperbola"
+    ],
+    "correct": "Logarithmic curve",
+    "explanation": "The graph of y = log(x) is called a logarithmic curve. It's the inverse of the exponential curve.",
+    "category": "Function Graphs",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "FQ075",
+    "question": "What is the definition of a surjective function?",
+    "answers": [
+      "A function with a one-to-one correspondence",
+      "A function where each input has a unique output",
+      "A function where every element in the codomain is mapped to by at least one element in the domain",
+      "A function that is both one-to-one and onto"
+    ],
+    "correct": "A function where every element in the codomain is mapped to by at least one element in the domain",
+    "explanation": "A surjective (onto) function is one where every element of the codomain is mapped to by at least one element of the domain.",
+    "category": "Function Properties",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ076",
+    "question": "What is the domain of the function f(x) = ln(x - 3)?",
+    "answers": [
+      "All real numbers",
+      "x > 3",
+      "x ≥ 3",
+      "x < 3"
+    ],
+    "correct": "x > 3",
+    "explanation": "For a logarithmic function ln(x - a), the domain is all values where x - a > 0. Here, x - 3 > 0, so x > 3.",
+    "category": "Domain and Range",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ077",
+    "question": "What is the rule for the composition of inverse functions?",
+    "answers": [
+      "(f ∘ f⁻¹)(x) = x",
+      "(f ∘ f⁻¹)(x) = f(x)",
+      "(f ∘ f⁻¹)(x) = f⁻¹(x)",
+      "(f ∘ f⁻¹)(x) = 0"
+    ],
+    "correct": "(f ∘ f⁻¹)(x) = x",
+    "explanation": "When you compose a function with its inverse, you get the identity function: (f ∘ f⁻¹)(x) = x.",
+    "category": "Inverse Functions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ078",
+    "question": "What is the end behavior of f(x) = 2ˣ?",
+    "answers": [
+      "f(x) → 0 as x → -∞ and f(x) → ∞ as x → ∞",
+      "f(x) → ∞ as x → ±∞",
+      "f(x) → -∞ as x → -∞ and f(x) → ∞ as x → ∞",
+      "f(x) → 1 as x → ±∞"
+    ],
+    "correct": "f(x) → 0 as x → -∞ and f(x) → ∞ as x → ∞",
+    "explanation": "For exponential functions with base > 1, as x approaches negative infinity, f(x) approaches 0, and as x approaches positive infinity, f(x) approaches infinity.",
+    "category": "Exponential Functions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "FQ079",
+    "question": "What is the definition of an even function?",
+    "answers": [
+      "f(-x) = -f(x) for all x",
+      "f(-x) = f(x) for all x",
+      "f(x) is defined only for even numbers",
+      "The graph of f(x) is symmetric about the x-axis"
+    ],
+    "correct": "f(-x) = f(x) for all x",
+    "explanation": "An even function is symmetric about the y-axis, meaning f(-x) = f(x) for all x in its domain.",
+    "category": "Function Properties",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "FQ080",
+    "question": "What is the relationship between the graphs of f(x) and -f(x)?",
+    "answers": [
+      "They are reflections across the x-axis",
+      "They are reflections across the y-axis",
+      "They are the same graph",
+      "They are rotations of 90 degrees"
+    ],
+    "correct": "They are reflections across the x-axis",
+    "explanation": "The graph of -f(x) is a reflection of the graph of f(x) across the x-axis.",
+    "category": "Function Transformations",
+    "difficulty": "Medium"
+  }
+]
