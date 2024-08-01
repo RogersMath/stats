@@ -197,7 +197,7 @@
   },
   {
     "questionId": "FQ015",
-    "question": "What is a surjective function?",
+    "question": "What is a surjective function? Hint: 'codomain' means the same as 'range'.",
     "answers": [
       "A function where every element of the codomain is mapped to by at least one element of the domain",
       "A function where each element of the domain maps to a unique element of the codomain",
