@@ -37,106 +37,9 @@ let sessionBest = {
     incorrect: 0,
     percentage: 0
 };
-let currentLibrary = 'Functions';
+let currentLibrary = 'JavaScript';
 let currentQuestions = [];
 let answeredQuestions = [];
-
-let resourcesLoaded = {
-    dom: false,
-    mathJax: false,
-    questions: false
-};
-
-let initializationTimer = null;
-
-function initializeGame() {
-    console.log('Initializing game...');
-    showLoadingScreen();
-    
-    // Check if DOM is already loaded
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', onDOMLoaded);
-    } else {
-        onDOMLoaded();
-    }
-
-    // Initialize MathJax
-    if (window.MathJax) {
-        MathJax.startup.promise
-            .then(onMathJaxLoaded)
-            .catch(error => {
-                console.error('MathJax initialization error:', error);
-                onMathJaxLoaded(); // Proceed anyway
-            });
-    } else {
-        console.warn('MathJax not found, proceeding without it');
-        onMathJaxLoaded();
-    }
-
-    // Load questions
-    loadQuestionLibraries()
-        .then(onQuestionsLoaded)
-        .catch(error => {
-            console.error('Error loading questions:', error);
-            alert('Failed to load questions. Please refresh the page and try again.');
-        });
-
-    // Start polling to check if all resources are loaded
-    initializationTimer = setInterval(checkAllResourcesLoaded, 500);
-}
-
-function onDOMLoaded() {
-    console.log('DOM loaded');
-    resourcesLoaded.dom = true;
-    populateLibrarySelect();
-    updateHeaderImage();
-}
-
-function onMathJaxLoaded() {
-    console.log('MathJax loaded');
-    resourcesLoaded.mathJax = true;
-}
-
-function onQuestionsLoaded() {
-    console.log('Questions loaded');
-    resourcesLoaded.questions = true;
-}
-
-async function loadQuestionLibraries() {
-    const libraries = getAvailableLibraries(allQuestions);
-    const loadPromises = libraries.map(lib => loadQuestionLibrary(lib));
-    await Promise.all(loadPromises);
-}
-
-function checkAllResourcesLoaded() {
-    console.log('Checking resources:', resourcesLoaded);
-    if (resourcesLoaded.dom && resourcesLoaded.mathJax && resourcesLoaded.questions) {
-        console.log('All resources loaded, starting game');
-        clearInterval(initializationTimer);
-        hideLoadingScreen();
-        showStartMenu();
-    } else {
-        console.log('Still waiting for resources to load...');
-    }
-}
-
-function showLoadingScreen() {
-    const loadingScreen = document.getElementById('loading-screen');
-    if (loadingScreen) {
-        loadingScreen.style.display = 'flex';
-    } else {
-        console.error('Loading screen element not found');
-    }
-}
-
-function hideLoadingScreen() {
-    const loadingScreen = document.getElementById('loading-screen');
-    if (loadingScreen) {
-        loadingScreen.style.display = 'none';
-    } else {
-        console.error('Loading screen element not found');
-    }
-}
 
 function populateLibrarySelect() {
     const libraries = getAvailableLibraries(allQuestions);
@@ -185,7 +88,7 @@ function displayQuestion() {
     }
 
     const question = currentQuestions[currentQuestionIndex];
-    questionElement.innerHTML = question.question;
+    questionElement.textContent = question.question;
     categoryElement.textContent = `Category: ${question.category || 'N/A'}`;
     difficultyElement.textContent = `Difficulty: ${question.difficulty || 'N/A'}`;
     answersElement.innerHTML = '';
@@ -195,8 +98,8 @@ function displayQuestion() {
 
     shuffledAnswers.forEach((answer) => {
         const button = document.createElement('button');
-        button.innerHTML = answer;
-        button.classList.add('bg-blue-500', 'hover:bg-blue-600', 'text-white', 'font-bold', 'py-2', 'px-2', 'rounded', 'w-full', 'mb-1');
+        button.textContent = answer;
+        button.classList.add('bg-blue-500', 'hover:bg-blue-600', 'text-white', 'font-bold', 'py-2', 'px-4', 'rounded', 'w-full');
         button.addEventListener('click', () => {
             if (!isTransitioning) {
                 checkAnswer(answer, question.correct);
@@ -207,11 +110,6 @@ function displayQuestion() {
 
     resultElement.textContent = 'Good Luck!';
     resultElement.classList.add('text-blue-500');
-
-    // Typeset the new content
-    MathJax.typesetPromise([questionElement, answersElement]).then(() => {
-        console.log('Question and answers typeset complete');
-    });
 }
 
 function checkAnswer(selectedAnswer, correctAnswer) {
@@ -220,10 +118,10 @@ function checkAnswer(selectedAnswer, correctAnswer) {
 
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].disabled = true;
-        if (buttons[i].innerHTML === correctAnswer) {
+        if (buttons[i].textContent === correctAnswer) {
             buttons[i].classList.remove('bg-blue-500', 'hover:bg-blue-600');
             buttons[i].classList.add('bg-green-500');
-        } else if (buttons[i].innerHTML === selectedAnswer) {
+        } else if (buttons[i].textContent === selectedAnswer) {
             buttons[i].classList.remove('bg-blue-500', 'hover:bg-blue-600');
             buttons[i].classList.add('bg-red-500');
         }
@@ -328,27 +226,29 @@ function endGame() {
 }
 
 function displayReviewQuestions() {
-    const reviewQuestionsHTML = answeredQuestions.map((question, index) => `
-        <div class="mb-4 p-4 border rounded ${question.isCorrect ? 'bg-green-100' : 'bg-red-100'}">
+    answeredQuestions.forEach((question, index) => {
+        const questionReview = document.createElement('div');
+        questionReview.classList.add('mb-4', 'p-4', 'border', 'rounded');
+        questionReview.innerHTML = `
             <p class="font-semibold">${index + 1}. ${question.question}</p>
             <p>Your answer: ${question.userAnswer}</p>
             <p>Correct answer: ${question.correct}</p>
             <p>Explanation: ${question.explanation || 'Not provided'}</p>
-        </div>
-    `).join('');
-
-    reviewQuestionsElement.innerHTML += reviewQuestionsHTML;
-
-    // Typeset the review questions
-    MathJax.typesetPromise([reviewQuestionsElement]).then(() => {
-        console.log('Review questions typeset complete');
+        `;
+        if (question.isCorrect) {
+            questionReview.classList.add('bg-green-100');
+        } else {
+            questionReview.classList.add('bg-red-100');
+        }
+        reviewQuestionsElement.appendChild(questionReview);
     });
 }
 
 function showStartMenu() {
-    console.log('Showing start menu');
     reviewContainer.classList.add('hidden');
     startMenu.classList.remove('hidden');
+    populateLibrarySelect();
+    updateHeaderImage();
 }
 
 function toggleVolume() {
@@ -371,5 +271,5 @@ finishReviewButton.addEventListener('click', showStartMenu);
 qrToggle.addEventListener('click', () => toggleQRCode(qrImage, qrToggle));
 document.getElementById('get-tutoring-button').addEventListener('click', getTutoring);
 
-// Initialize the game when the window is fully loaded
-window.addEventListener('load', initializeGame);
+// Initialize the game
+showStartMenu();
