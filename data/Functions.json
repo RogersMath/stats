@@ -449,16 +449,16 @@
   },
   {
     "questionId": "FQ033",
-    "question": "What is the range of the cosine function?",
+    "question": "What is the range of the quadratic function f(x) = x² + 2?",
     "answers": [
-      "[-1, 1]",
+      "[2, ∞)",
+      "(-∞, 2]",
       "All real numbers",
-      "(0, 1]",
-      "[-1, 1)"
+      "(2, ∞)"
     ],
-    "correct": "[-1, 1]",
-    "explanation": "The cosine function oscillates between -1 and 1, inclusive. Therefore, its range is [-1, 1].",
-    "category": "Trigonometric Functions",
+    "correct": "[2, ∞)",
+    "explanation": "The quadratic function f(x) = x² + 2 has a minimum value of 2 when x = 0. The function can take on any value greater than or equal to 2, so the range is [2, ∞).",
+    "category": "Domain and Range",
     "difficulty": "Medium"
   },
   {
@@ -519,17 +519,17 @@
   },
   {
     "questionId": "FQ038",
-    "question": "What is the derivative of a constant function?",
+    "question": "What is a key property of a constant function?",
     "answers": [
-      "0",
-      "1",
-      "The constant itself",
-      "Undefined"
+      "Its graph is a horizontal line",
+      "Its graph is a vertical line",
+      "Its output always equals its input",
+      "It has no y-intercept"
     ],
-    "correct": "0",
-    "explanation": "The derivative of a constant function is always 0, as the rate of change is zero everywhere.",
-    "category": "Calculus",
-    "difficulty": "Medium"
+    "correct": "Its graph is a horizontal line",
+    "explanation": "A constant function, such as f(x) = c where c is a constant, has the same output value for every input. This results in a graph that is a horizontal line.",
+    "category": "Function Properties",
+    "difficulty": "Easy"
   },
   {
     "questionId": "FQ039",
@@ -561,16 +561,16 @@
   },
   {
     "questionId": "FQ041",
-    "question": "What is the reciprocal of the cosine function?",
+    "question": "If f(x) = 1/x, what is the domain of this reciprocal function?",
     "answers": [
-      "Secant",
-      "Tangent",
-      "Cosecant",
-      "Arctangent"
+      "All real numbers except 0",
+      "All real numbers",
+      "All positive real numbers",
+      "All negative real numbers"
     ],
-    "correct": "Secant",
-    "explanation": "The secant function is defined as sec(x) = 1/cos(x), making it the reciprocal of cosine.",
-    "category": "Trigonometric Functions",
+    "correct": "All real numbers except 0",
+    "explanation": "For the reciprocal function f(x) = 1/x, the domain includes all real numbers except 0, because division by zero is undefined.",
+    "category": "Domain and Range",
     "difficulty": "Medium"
   },
   {
@@ -631,17 +631,17 @@
   },
   {
     "questionId": "FQ046",
-    "question": "What is the limit of (sin x)/x as x approaches 0?",
+    "question": "If f(x) = 2x² - 3x + 1, what is f(2)?",
     "answers": [
+      "5",
+      "3",
       "1",
-      "0",
-      "Undefined",
-      "Infinity"
+      "7"
     ],
-    "correct": "1",
-    "explanation": "This is a famous limit in calculus. As x approaches 0, (sin x)/x approaches 1.",
-    "category": "Calculus",
-    "difficulty": "Hard"
+    "correct": "5",
+    "explanation": "To find f(2), we substitute x with 2 in the function: f(2) = 2(2)² - 3(2) + 1 = 2(4) - 6 + 1 = 8 - 6 + 1 = 5.",
+    "category": "Function Evaluation",
+    "difficulty": "Medium"
   },
   {
     "questionId": "FQ047",
@@ -785,16 +785,16 @@
   },
   {
     "questionId": "FQ057",
-    "question": "Which of the following best describes the average rate of change of a function?",
+    "question": "What is the slope of the line passing through the points (1, 3) and (4, 9)?",
     "answers": [
-      "The slope of the tangent line at a point",
-      "The slope of the secant line between two points",
-      "The y-intercept of the function",
-      "The maximum value of the function"
+      "2",
+      "3",
+      "1",
+      "6"
     ],
-    "correct": "The slope of the secant line between two points",
-    "explanation": "The average rate of change of a function between two points is represented by the slope of the secant line connecting those points. This concept is foundational to understanding the derivative in calculus.",
-    "category": "Function Behavior",
+    "correct": "2",
+    "explanation": "The slope of a line can be calculated using the formula (y₂ - y₁) / (x₂ - x₁). Here, (9 - 3) / (4 - 1) = 6 / 3 = 2.",
+    "category": "Linear Functions",
     "difficulty": "Medium"
   },
   {
