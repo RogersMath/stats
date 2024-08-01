@@ -247,7 +247,7 @@
       "The function can be drawn without lifting the pencil from the paper"
     ],
     "correct": "The function has no breaks, jumps, or holes in its graph",
-    "explanation": "A continuous function is one where the graph has no breaks, jumps, or holes. More formally, it means the function approaches the same value as its input approaches any point in its domain.",
+    "explanation": "A continuous function is one where the graph has no breaks, jumps, or holes. This is often informally described as being able to draw the function without lifting the pencil from the paper. More formally, it means the function approaches the same value as its input approaches any point in its domain.",
     "category": "Function Properties",
     "difficulty": "Medium"
   },
