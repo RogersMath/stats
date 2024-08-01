@@ -225,17 +225,17 @@
   },
   {
     "questionId": "FQ017",
-    "question": "What is the difference between a function's zeros and its roots?",
+    "question": "What is the difference between a function's relative minimum and absolute minimum?",
     "answers": [
-      "There is no difference; they are the same thing",
-      "Zeros are x-intercepts, roots are y-intercepts",
-      "Zeros are real numbers, roots can be complex",
-      "Zeros are outputs, roots are inputs"
+      "A relative minimum is the lowest point in a local region, while an absolute minimum is the lowest point over the entire domain",
+      "A relative minimum can only occur at endpoints, while an absolute minimum can occur anywhere",
+      "A relative minimum is always negative, while an absolute minimum can be positive",
+      "There is no difference; they are the same thing"
     ],
-    "correct": "There is no difference; they are the same thing",
-    "explanation": "The zeros and roots of a function are the same thing: the x-values where the function equals zero, or the x-intercepts of its graph.",
-    "category": "Function Properties",
-    "difficulty": "Medium"
+    "correct": "A relative minimum is the lowest point in a local region, while an absolute minimum is the lowest point over the entire domain",
+    "explanation": "A relative (local) minimum is the lowest point in some open interval of the function's domain, while an absolute (global) minimum is the lowest point over the entire domain of the function.",
+    "category": "Function Behavior",
+    "difficulty": "Hard"
   },
   {
     "questionId": "FQ018",
@@ -701,15 +701,15 @@
   },
   {
     "questionId": "FQ051",
-    "question": "What is the vertex form of a quadratic function?",
+    "question": "What is the significance of the vertex in a quadratic function?",
     "answers": [
-      "ax² + bx + c",
-      "a(x - h)² + k",
-      "(x - r₁)(x - r₂)",
-      "y = mx + b"
+      "It represents the y-intercept of the parabola",
+      "It is the point where the parabola changes direction",
+      "It is always located at the origin",
+      "It represents the average of the roots"
     ],
-    "correct": "a(x - h)² + k",
-    "explanation": "The vertex form of a quadratic function is a(x - h)² + k, where (h, k) is the vertex of the parabola.",
+    "correct": "It is the point where the parabola changes direction",
+    "explanation": "The vertex of a quadratic function represents the maximum or minimum point of the parabola, where it changes from increasing to decreasing or vice versa. It's a crucial point for understanding the behavior of the function.",
     "category": "Quadratic Functions",
     "difficulty": "Medium"
   },
@@ -785,17 +785,17 @@
   },
   {
     "questionId": "FQ057",
-    "question": "What is the difference quotient formula?",
+    "question": "Which of the following best describes the average rate of change of a function?",
     "answers": [
-      "(f(x+h) - f(x)) / h",
-      "f'(x) = lim[h→0] (f(x+h) - f(x)) / h",
-      "(f(b) - f(a)) / (b - a)",
-      "f(x+h) - f(x)"
+      "The slope of the tangent line at a point",
+      "The slope of the secant line between two points",
+      "The y-intercept of the function",
+      "The maximum value of the function"
     ],
-    "correct": "(f(x+h) - f(x)) / h",
-    "explanation": "The difference quotient formula is (f(x+h) - f(x)) / h, which represents the average rate of change of a function.",
-    "category": "Calculus",
-    "difficulty": "Hard"
+    "correct": "The slope of the secant line between two points",
+    "explanation": "The average rate of change of a function between two points is represented by the slope of the secant line connecting those points. This concept is foundational to understanding the derivative in calculus.",
+    "category": "Function Behavior",
+    "difficulty": "Medium"
   },
   {
     "questionId": "FQ058",
@@ -869,17 +869,17 @@
   },
   {
     "questionId": "FQ063",
-    "question": "What is the limit of (1 + 1/n)^n as n approaches infinity?",
+    "question": "Which of the following is true about the graph of y = e^x?",
     "answers": [
-      "1",
-      "e",
-      "Infinity",
-      "Does not exist"
+      "It passes through the point (0, 1)",
+      "It has a horizontal asymptote at y = 0",
+      "It is decreasing for all x",
+      "It intersects the x-axis"
     ],
-    "correct": "e",
-    "explanation": "This limit is the definition of the mathematical constant e, approximately equal to 2.71828.",
-    "category": "Calculus",
-    "difficulty": "Hard"
+    "correct": "It passes through the point (0, 1)",
+    "explanation": "The exponential function y = e^x always passes through the point (0, 1) because e^0 = 1. It has a horizontal asymptote at y = 0 as x approaches negative infinity, is always increasing, and never intersects the x-axis.",
+    "category": "Exponential Functions",
+    "difficulty": "Medium"
   },
   {
     "questionId": "FQ064",
