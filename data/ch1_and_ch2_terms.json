@@ -1078,34 +1078,6 @@
     "difficulty": "Medium"
   },
   {
-    "questionId": "ST079",
-    "question": "What does the interquartile range (IQR) measure?",
-    "answers": [
-      "The difference between the largest and smallest values",
-      "The average of all values",
-      "The middle 50% of the data",
-      "The most frequent value"
-    ],
-    "correct": "The middle 50% of the data",
-    "explanation": "The interquartile range (IQR) measures the spread of the middle 50% of the data. It is calculated as the difference between the third quartile (Q3) and the first quartile (Q1).",
-    "category": "Descriptive Statistics",
-    "difficulty": "Medium"
-  },
-  {
-    "questionId": "ST080",
-    "question": "What does high kurtosis in a distribution indicate?",
-    "answers": [
-      "The distribution is perfectly symmetrical",
-      "The distribution has a flat top",
-      "The distribution has heavy tails and a sharp peak",
-      "The distribution is bimodal"
-    ],
-    "correct": "The distribution has heavy tails and a sharp peak",
-    "explanation": "High kurtosis indicates that a distribution has heavy tails (more extreme values) and a sharp peak compared to a normal distribution.",
-    "category": "Distributions",
-    "difficulty": "Hard"
-  },
-  {
     "questionId": "ST081",
     "question": "Which measure of center is most affected by extreme values or outliers?",
     "answers": [
@@ -1146,20 +1118,6 @@
     "explanation": "The range is a measure of variability that represents the difference between the largest (maximum) and smallest (minimum) values in a dataset.",
     "category": "Descriptive Statistics",
     "difficulty": "Easy"
-  },
-  {
-    "questionId": "ST084",
-    "question": "Which type of variable can be classified as both numerical and categorical?",
-    "answers": [
-      "Nominal variable",
-      "Ordinal variable",
-      "Interval variable",
-      "Ratio variable"
-    ],
-    "correct": "Ordinal variable",
-    "explanation": "An ordinal variable can be classified as both numerical and categorical. It has categories with a meaningful order or ranking, but the differences between categories may not be consistent or meaningful.",
-    "category": "Variable Types",
-    "difficulty": "Hard"
   },
   {
     "questionId": "ST085",
@@ -1233,7 +1191,7 @@
   },
   {
     "questionId": "ST090",
-    "question": "Which of the following is true about the relationship between a population parameter and a sample statistic?",
+    "question": "Which of the following is generally true about the relationship between a population parameter and a sample statistic?",
     "answers": [
       "They are always the same value",
       "The sample statistic is always larger than the population parameter",
