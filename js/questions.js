@@ -1,6 +1,5 @@
 const allQuestions = {
-    Functions: null,
-    Factoring: null
+    ch1_and_ch2_terms: null
 };
 
 async function loadQuestionLibrary(libraryName) {
