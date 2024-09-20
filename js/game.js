@@ -261,7 +261,7 @@ function toggleVolume() {
 }
 
 function getTutoring() {
-    window.open('https://www.palmbeachstate.edu/slc/', '_blank');
+    window.open('https://www.openintro.org/go/?id=os4_for_screen_readers&referrer=/book/os/index.php', '_blank');
 }
 
 // Event listeners
