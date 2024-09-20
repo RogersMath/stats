@@ -1036,227 +1036,213 @@
     "difficulty": "Hard"
   },
   {
-    "questionId": "ST075",
-    "question": "What does the law of large numbers state?",
-    "answers": [
-      "Larger samples always produce more accurate results",
-      "The sample mean approaches the population mean as the sample size increases",
-      "Larger populations are more difficult to study than smaller ones",
-      "Statistical analysis is only valid for large datasets"
-    ],
-    "correct": "The sample mean approaches the population mean as the sample size increases",
-    "explanation": "The law of large numbers states that as the sample size increases, the sample mean tends to approach the true population mean.",
-    "category": "Probability and Sampling",
-    "difficulty": "Hard"
-  },
-  {
     "questionId": "ST076",
-    "question": "What is the primary purpose of a box plot (box-and-whisker plot)?",
+    "question": "What type of graph is most appropriate for displaying the distribution of a categorical variable?",
     "answers": [
-      "To show the exact distribution of all data points",
-      "To compare the means of multiple datasets",
-      "To display the five-number summary and identify potential outliers",
-      "To visualize the correlation between two variables"
+      "Histogram",
+      "Scatterplot",
+      "Bar plot",
+      "Box plot"
     ],
-    "correct": "To display the five-number summary and identify potential outliers",
-    "explanation": "A box plot (box-and-whisker plot) is used to display the five-number summary (minimum, Q1, median, Q3, maximum) of a dataset and to identify potential outliers.",
+    "correct": "Bar plot",
+    "explanation": "A bar plot is most appropriate for displaying the distribution of a categorical variable. Each bar represents a category, and the height of the bar shows the frequency or proportion of that category.",
     "category": "Data Visualization",
-    "difficulty": "Medium"
+    "difficulty": "Easy"
   },
   {
     "questionId": "ST077",
-    "question": "In a normal distribution, what is the relationship between the mean, median, and mode?",
+    "question": "What does a bimodal distribution indicate?",
     "answers": [
-      "The mean is always larger than the median and mode",
-      "The median is always larger than the mean and mode",
-      "The mode is always larger than the mean and median",
-      "The mean, median, and mode are all equal"
+      "The data has no clear center",
+      "The data has two distinct peaks",
+      "The data is normally distributed",
+      "The data has no variation"
     ],
-    "correct": "The mean, median, and mode are all equal",
-    "explanation": "In a perfectly normal distribution, the mean, median, and mode are all equal, forming the central peak of the symmetric bell-shaped curve.",
+    "correct": "The data has two distinct peaks",
+    "explanation": "A bimodal distribution is characterized by having two distinct peaks or modes, indicating two separate concentrations of values within the dataset.",
     "category": "Distributions",
     "difficulty": "Medium"
   },
   {
     "questionId": "ST078",
-    "question": "What does a Type I error represent in hypothesis testing?",
+    "question": "Which of the following is NOT typically included in the five-number summary?",
     "answers": [
-      "Failing to reject the null hypothesis when it is false",
-      "Rejecting the null hypothesis when it is true",
-      "Correctly rejecting the null hypothesis",
-      "Correctly failing to reject the null hypothesis"
+      "Median",
+      "First quartile",
+      "Mean",
+      "Maximum"
     ],
-    "correct": "Rejecting the null hypothesis when it is true",
-    "explanation": "A Type I error occurs when we reject the null hypothesis when it is actually true. It's often described as a 'false positive'.",
-    "category": "Inferential Statistics",
-    "difficulty": "Hard"
-  },
-  {
-    "questionId": "ST079",
-    "question": "What is the purpose of stratified sampling?",
-    "answers": [
-      "To ensure that every member of the population is included in the sample",
-      "To divide the population into homogeneous subgroups before sampling",
-      "To select sample members in a systematic, evenly-spaced way",
-      "To choose sample members based on their availability"
-    ],
-    "correct": "To divide the population into homogeneous subgroups before sampling",
-    "explanation": "Stratified sampling involves dividing the population into homogeneous subgroups (strata) before sampling. This ensures that the sample is representative of the population with respect to certain characteristics.",
-    "category": "Sampling Methods",
-    "difficulty": "Medium"
-  },
-  {
-    "questionId": "ST080",
-    "question": "What does the Central Limit Theorem state?",
-    "answers": [
-      "All populations are normally distributed",
-      "The sample size must always be large for accurate results",
-      "The sampling distribution of the sample mean approaches a normal distribution as sample size increases",
-      "The population mean is always equal to the sample mean"
-    ],
-    "correct": "The sampling distribution of the sample mean approaches a normal distribution as sample size increases",
-    "explanation": "The Central Limit Theorem states that the sampling distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the shape of the population distribution.",
-    "category": "Sampling Distributions",
-    "difficulty": "Hard"
-  },
-  {
-    "questionId": "ST081",
-    "question": "What is the primary difference between correlation and causation?",
-    "answers": [
-      "Correlation is always stronger than causation",
-      "Causation always implies correlation, but correlation does not imply causation",
-      "Correlation can only be positive, while causation can be positive or negative",
-      "Causation is easier to establish than correlation"
-    ],
-    "correct": "Causation always implies correlation, but correlation does not imply causation",
-    "explanation": "While causation always implies correlation, the presence of a correlation does not necessarily imply causation. Other factors, like confounding variables, could be responsible for the observed relationship.",
-    "category": "Correlation and Causation",
-    "difficulty": "Medium"
-  },
-  {
-    "questionId": "ST082",
-    "question": "What is the purpose of a residual plot in regression analysis?",
-    "answers": [
-      "To visualize the original data points",
-      "To calculate the correlation coefficient",
-      "To check the linearity and homoscedasticity assumptions",
-      "To determine the slope of the regression line"
-    ],
-    "correct": "To check the linearity and homoscedasticity assumptions",
-    "explanation": "A residual plot is used in regression analysis to check the linearity and homoscedasticity (constant variance) assumptions. It helps identify patterns that may indicate violations of these assumptions.",
-    "category": "Regression Analysis",
-    "difficulty": "Hard"
-  },
-  {
-    "questionId": "ST083",
-    "question": "What does a confidence interval provide?",
-    "answers": [
-      "The exact value of a population parameter",
-      "The probability that a sample statistic is correct",
-      "A range of plausible values for a population parameter",
-      "The margin of error in a survey"
-    ],
-    "correct": "A range of plausible values for a population parameter",
-    "explanation": "A confidence interval provides a range of plausible values for a population parameter, based on sample data and a specified level of confidence.",
-    "category": "Inferential Statistics",
-    "difficulty": "Medium"
-  },
-  {
-    "questionId": "ST084",
-    "question": "What is the primary purpose of a control group in an experiment?",
-    "answers": [
-      "To increase the sample size",
-      "To provide a basis for comparison",
-      "To ensure the experiment is double-blind",
-      "To represent the entire population"
-    ],
-    "correct": "To provide a basis for comparison",
-    "explanation": "The primary purpose of a control group in an experiment is to provide a basis for comparison. It allows researchers to isolate the effect of the treatment or intervention being studied.",
-    "category": "Experimental Design",
-    "difficulty": "Easy"
-  },
-  {
-    "questionId": "ST085",
-    "question": "What does a z-score represent?",
-    "answers": [
-      "The probability of an event occurring",
-      "The number of standard deviations a data point is from the mean",
-      "The correlation between two variables",
-      "The slope of a regression line"
-    ],
-    "correct": "The number of standard deviations a data point is from the mean",
-    "explanation": "A z-score represents the number of standard deviations a data point is away from the mean. It allows for standardization and comparison across different distributions.",
+    "correct": "Mean",
+    "explanation": "The five-number summary typically includes the minimum, first quartile (Q1), median, third quartile (Q3), and maximum. The mean is not part of this summary.",
     "category": "Descriptive Statistics",
     "difficulty": "Medium"
   },
   {
-    "questionId": "ST086",
-    "question": "In a right-skewed distribution, how does the mean typically compare to the median?",
+    "questionId": "ST079",
+    "question": "What does the interquartile range (IQR) measure?",
     "answers": [
-      "The mean is usually less than the median",
-      "The mean is usually greater than the median",
-      "The mean and median are always equal",
-      "There is no consistent relationship between the mean and median"
+      "The difference between the largest and smallest values",
+      "The average of all values",
+      "The middle 50% of the data",
+      "The most frequent value"
     ],
-    "correct": "The mean is usually greater than the median",
-    "explanation": "In a right-skewed distribution, the mean is typically greater than the median. This is because the mean is pulled toward the tail (the right side in this case) by extreme values.",
+    "correct": "The middle 50% of the data",
+    "explanation": "The interquartile range (IQR) measures the spread of the middle 50% of the data. It is calculated as the difference between the third quartile (Q3) and the first quartile (Q1).",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST080",
+    "question": "What does high kurtosis in a distribution indicate?",
+    "answers": [
+      "The distribution is perfectly symmetrical",
+      "The distribution has a flat top",
+      "The distribution has heavy tails and a sharp peak",
+      "The distribution is bimodal"
+    ],
+    "correct": "The distribution has heavy tails and a sharp peak",
+    "explanation": "High kurtosis indicates that a distribution has heavy tails (more extreme values) and a sharp peak compared to a normal distribution.",
+    "category": "Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST081",
+    "question": "Which measure of center is most affected by extreme values or outliers?",
+    "answers": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Midrange"
+    ],
+    "correct": "Mean",
+    "explanation": "The mean is the measure of center most affected by extreme values or outliers because it takes into account the value of every data point in its calculation.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST082",
+    "question": "What is the primary purpose of a stem and leaf plot?",
+    "answers": [
+      "To compare two variables",
+      "To display categorical data",
+      "To show changes over time",
+      "To display the distribution of a dataset while retaining individual values"
+    ],
+    "correct": "To display the distribution of a dataset while retaining individual values",
+    "explanation": "A stem and leaf plot is used to display the distribution of a dataset while retaining individual values. It splits each data point into a 'stem' (leading digits) and a 'leaf' (final digit).",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST083",
+    "question": "What does the range of a dataset measure?",
+    "answers": [
+      "The average value",
+      "The most frequent value",
+      "The difference between the largest and smallest values",
+      "The middle value"
+    ],
+    "correct": "The difference between the largest and smallest values",
+    "explanation": "The range is a measure of variability that represents the difference between the largest (maximum) and smallest (minimum) values in a dataset.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST084",
+    "question": "Which type of variable can be classified as both numerical and categorical?",
+    "answers": [
+      "Nominal variable",
+      "Ordinal variable",
+      "Interval variable",
+      "Ratio variable"
+    ],
+    "correct": "Ordinal variable",
+    "explanation": "An ordinal variable can be classified as both numerical and categorical. It has categories with a meaningful order or ranking, but the differences between categories may not be consistent or meaningful.",
+    "category": "Variable Types",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST085",
+    "question": "What is the primary purpose of a density plot?",
+    "answers": [
+      "To show the exact values in a dataset",
+      "To compare multiple categorical variables",
+      "To display the distribution of a continuous variable",
+      "To identify the median of a dataset"
+    ],
+    "correct": "To display the distribution of a continuous variable",
+    "explanation": "A density plot is used to display the distribution of a continuous variable. It provides a smooth, continuous estimation of the probability density function of the variable.",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST086",
+    "question": "What does positive skewness in a distribution indicate?",
+    "answers": [
+      "The left tail is longer than the right tail",
+      "The right tail is longer than the left tail",
+      "The distribution is perfectly symmetrical",
+      "There are no outliers in the distribution"
+    ],
+    "correct": "The right tail is longer than the left tail",
+    "explanation": "Positive skewness indicates that the right tail of the distribution is longer than the left tail. This means there are more extreme values on the right side of the distribution.",
     "category": "Distributions",
     "difficulty": "Medium"
   },
   {
     "questionId": "ST087",
-    "question": "What is the purpose of a two-sample t-test?",
+    "question": "Which of the following is a measure of spread?",
     "answers": [
-      "To compare the variances of two populations",
-      "To test for a linear relationship between two variables",
-      "To compare the means of two populations",
-      "To check if a dataset is normally distributed"
+      "Mean",
+      "Median",
+      "Mode",
+      "Standard deviation"
     ],
-    "correct": "To compare the means of two populations",
-    "explanation": "A two-sample t-test is used to compare the means of two populations, typically to determine if there is a significant difference between them.",
-    "category": "Inferential Statistics",
-    "difficulty": "Medium"
+    "correct": "Standard deviation",
+    "explanation": "The standard deviation is a measure of spread or variability in a dataset. It quantifies the average distance between each data point and the mean of the distribution.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Easy"
   },
   {
     "questionId": "ST088",
-    "question": "What does multicollinearity in regression analysis refer to?",
+    "question": "What type of graph is most appropriate for showing how a variable changes over time?",
     "answers": [
-      "The presence of outliers in the dataset",
-      "A high correlation between predictor variables",
-      "A non-linear relationship between variables",
-      "Unequal variances across the range of a predictor variable"
+      "Bar plot",
+      "Pie chart",
+      "Time series plot",
+      "Box plot"
     ],
-    "correct": "A high correlation between predictor variables",
-    "explanation": "Multicollinearity in regression analysis refers to a situation where there is a high correlation between predictor variables. This can lead to unreliable and unstable estimates of regression coefficients.",
-    "category": "Regression Analysis",
-    "difficulty": "Hard"
+    "correct": "Time series plot",
+    "explanation": "A time series plot is most appropriate for showing how a variable changes over time. It displays data points at successive time intervals, allowing for the visualization of trends, cycles, or irregular fluctuations.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
   },
   {
     "questionId": "ST089",
-    "question": "What is the primary purpose of a chi-square test for independence?",
+    "question": "What does the variance measure in a dataset?",
     "answers": [
-      "To compare the means of two groups",
-      "To test for a linear relationship between two variables",
-      "To determine if there is a significant association between two categorical variables",
-      "To check if a dataset follows a normal distribution"
+      "The average value",
+      "The most common value",
+      "The spread of the data around its mean",
+      "The difference between the largest and smallest values"
     ],
-    "correct": "To determine if there is a significant association between two categorical variables",
-    "explanation": "A chi-square test for independence is primarily used to determine if there is a significant association between two categorical variables in a population.",
-    "category": "Inferential Statistics",
-    "difficulty": "Hard"
+    "correct": "The spread of the data around its mean",
+    "explanation": "Variance is a measure of variability that quantifies the spread of the data around its mean. It's calculated as the average squared deviation from the mean.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
   },
   {
     "questionId": "ST090",
-    "question": "What does the coefficient of determination (R-squared) represent in regression analysis?",
+    "question": "Which of the following is true about the relationship between a population parameter and a sample statistic?",
     "answers": [
-      "The slope of the regression line",
-      "The correlation between the variables",
-      "The proportion of variance in the dependent variable explained by the independent variable(s)",
-      "The probability that the regression model is correct"
+      "They are always the same value",
+      "The sample statistic is always larger than the population parameter",
+      "The population parameter is known, while the sample statistic is estimated",
+      "The sample statistic is known, while the population parameter is estimated"
     ],
-    "correct": "The proportion of variance in the dependent variable explained by the independent variable(s)",
-    "explanation": "The coefficient of determination (R-squared) represents the proportion of variance in the dependent variable that is predictable from the independent variable(s) in a regression model.",
-    "category": "Regression Analysis",
+    "correct": "The sample statistic is known, while the population parameter is estimated",
+    "explanation": "In most cases, we calculate a sample statistic (which is known) to estimate an unknown population parameter. The sample statistic serves as an estimate of the true population parameter.",
+    "category": "Basic Concepts",
     "difficulty": "Hard"
   }
   
