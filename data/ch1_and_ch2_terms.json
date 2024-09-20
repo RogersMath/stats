@@ -1,0 +1,1263 @@
+[
+  {
+    "questionId": "ST001",
+    "question": "What is a systematic error that affects the results of a statistical study, making them less representative of the population?",
+    "answers": [
+      "Bias",
+      "Confounding variable",
+      "Anecdotal evidence",
+      "Association"
+    ],
+    "correct": "Bias",
+    "explanation": "Bias is a systematic error that affects the results of a statistical study, making them less representative of the population.",
+    "category": "Basic Concepts",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST002",
+    "question": "Which term describes a variable that can take on one of a limited number of possible values, representing different categories?",
+    "answers": [
+      "Categorical variable",
+      "Binary variable",
+      "Numerical variable",
+      "Quantitative variable"
+    ],
+    "correct": "Categorical variable",
+    "explanation": "A categorical variable, also called a qualitative variable, can take on one of a limited number of possible values, representing different categories.",
+    "category": "Variable Types",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST003",
+    "question": "What is the term for the entire group of individuals or objects about which information is sought in a statistical study?",
+    "answers": [
+      "Sample",
+      "Census",
+      "Population",
+      "Dataset"
+    ],
+    "correct": "Population",
+    "explanation": "The population is the entire group of individuals or objects about which information is sought in a statistical study.",
+    "category": "Basic Concepts",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST004",
+    "question": "Which of the following best describes inferential statistics?",
+    "answers": [
+      "Methods used to summarize data",
+      "Techniques for collecting data",
+      "Ways to visualize data",
+      "Methods used to draw conclusions about a population based on sample data"
+    ],
+    "correct": "Methods used to draw conclusions about a population based on sample data",
+    "explanation": "Inferential statistics are methods used to draw conclusions about a population based on data from a sample.",
+    "category": "Statistical Methods",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST005",
+    "question": "What type of variable has categories with a natural order or ranking?",
+    "answers": [
+      "Nominal variable",
+      "Interval variable",
+      "Ordinal variable",
+      "Ratio variable"
+    ],
+    "correct": "Ordinal variable",
+    "explanation": "An ordinal variable is a categorical variable with categories that have a natural order or ranking.",
+    "category": "Variable Types",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST006",
+    "question": "Which measure of center represents the arithmetic average of a dataset?",
+    "answers": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Midrange"
+    ],
+    "correct": "Mean",
+    "explanation": "The mean is the arithmetic average of a dataset, calculated by summing all values and dividing by the number of values.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST007",
+    "question": "What is the term for a measure of variability based on dividing a dataset into quartiles?",
+    "answers": [
+      "Standard deviation",
+      "Variance",
+      "Range",
+      "Interquartile range (IQR)"
+    ],
+    "correct": "Interquartile range (IQR)",
+    "explanation": "The interquartile range (IQR) is a measure of variability based on dividing a dataset into quartiles, calculated as Q3 - Q1.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST008",
+    "question": "Which graph uses rectangular bars to show the frequencies or values of different categories in a dataset?",
+    "answers": [
+      "Histogram",
+      "Scatterplot",
+      "Bar plot",
+      "Box plot"
+    ],
+    "correct": "Bar plot",
+    "explanation": "A bar plot uses rectangular bars to show the frequencies or values of different categories in a dataset.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST009",
+    "question": "What is the term for a distribution with two distinct peaks or modes?",
+    "answers": [
+      "Uniform",
+      "Normal",
+      "Bimodal",
+      "Skewed"
+    ],
+    "correct": "Bimodal",
+    "explanation": "A bimodal distribution is one with two distinct peaks or modes.",
+    "category": "Distributions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST010",
+    "question": "Which measure indicates the average distance between data points and the mean of the dataset?",
+    "answers": [
+      "Range",
+      "Variance",
+      "Standard deviation",
+      "Interquartile range"
+    ],
+    "correct": "Standard deviation",
+    "explanation": "The standard deviation is a measure of variability that indicates the average distance between data points and the mean of the dataset.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST011",
+    "question": "What type of graph displays data points at successive time intervals?",
+    "answers": [
+      "Pie chart",
+      "Time series plot",
+      "Histogram",
+      "Dot plot"
+    ],
+    "correct": "Time series plot",
+    "explanation": "A time series plot is a graph that displays data points at successive time intervals, used to show how a variable changes over time.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST012",
+    "question": "Which of the following is NOT a measure of center?",
+    "answers": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Range"
+    ],
+    "correct": "Range",
+    "explanation": "The range is a measure of variability or spread, not a measure of center. The mean, median, and mode are all measures of center.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST013",
+    "question": "What is the term for a data point that is significantly different from other observations in a dataset?",
+    "answers": [
+      "Outlier",
+      "Mode",
+      "Median",
+      "Quartile"
+    ],
+    "correct": "Outlier",
+    "explanation": "An outlier is a data point that is significantly different from other observations in a dataset.",
+    "category": "Basic Concepts",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST014",
+    "question": "Which of the following best describes a contingency table?",
+    "answers": [
+      "A graph showing the relationship between two numerical variables",
+      "A table displaying the frequencies of two categorical variables simultaneously",
+      "A plot showing the distribution of a single variable over time",
+      "A summary of the five key numbers in a dataset"
+    ],
+    "correct": "A table displaying the frequencies of two categorical variables simultaneously",
+    "explanation": "A contingency table is a table that displays the frequencies of two categorical variables simultaneously, allowing for the study of their relationship.",
+    "category": "Data Visualization",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST015",
+    "question": "What does kurtosis measure in a probability distribution?",
+    "answers": [
+      "Center",
+      "Spread",
+      "Skewness",
+      "Tailedness"
+    ],
+    "correct": "Tailedness",
+    "explanation": "Kurtosis is a measure of the 'tailedness' of a probability distribution, indicating whether data are heavy-tailed or light-tailed relative to a normal distribution.",
+    "category": "Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST016",
+    "question": "What type of graph shows how a whole is divided into parts, with each slice representing a category's proportion?",
+    "answers": [
+      "Bar chart",
+      "Histogram",
+      "Pie chart",
+      "Scatterplot"
+    ],
+    "correct": "Pie chart",
+    "explanation": "A pie chart is a circular graph that shows how a whole is divided into parts, with each slice representing a category's proportion.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST017",
+    "question": "Which measure of variability is calculated as the average squared deviation from the mean?",
+    "answers": [
+      "Standard deviation",
+      "Range",
+      "Interquartile range",
+      "Variance"
+    ],
+    "correct": "Variance",
+    "explanation": "Variance is a measure of variability calculated as the average squared deviation from the mean.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST018",
+    "question": "What is the term for a relationship between two variables that doesn't imply causation?",
+    "answers": [
+      "Correlation",
+      "Association",
+      "Causation",
+      "Confounding"
+    ],
+    "correct": "Association",
+    "explanation": "Association is a relationship between two variables. It doesn't imply causation, just that there's a connection between them.",
+    "category": "Basic Concepts",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST019",
+    "question": "Which of the following best describes a census?",
+    "answers": [
+      "A sample of a population",
+      "A survey of public opinion",
+      "A data collection method that gathers information from every member of a population",
+      "A statistical measure of central tendency"
+    ],
+    "correct": "A data collection method that gathers information from every member of a population",
+    "explanation": "A census is a data collection method that gathers information from every member of a population.",
+    "category": "Data Collection",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST020",
+    "question": "What is the term for the variable that may explain or influence changes in another variable?",
+    "answers": [
+      "Response variable",
+      "Confounding variable",
+      "Explanatory variable",
+      "Control variable"
+    ],
+    "correct": "Explanatory variable",
+    "explanation": "The explanatory variable, also known as the independent variable, is the variable that may explain or influence changes in another variable (the response variable).",
+    "category": "Variable Types",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST021",
+    "question": "Which type of study involves researchers observing and measuring variables without manipulating the environment?",
+    "answers": [
+      "Experimental study",
+      "Observational study",
+      "Controlled study",
+      "Randomized study"
+    ],
+    "correct": "Observational study",
+    "explanation": "An observational study is a study where researchers observe and measure variables without manipulating the environment.",
+    "category": "Research Methods",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST022",
+    "question": "What is the term for a numerical value that describes a characteristic of an entire population?",
+    "answers": [
+      "Statistic",
+      "Variable",
+      "Parameter",
+      "Estimator"
+    ],
+    "correct": "Parameter",
+    "explanation": "A parameter is a numerical value that describes a characteristic of an entire population.",
+    "category": "Basic Concepts",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST023",
+    "question": "Which of the following is an example of a binary variable?",
+    "answers": [
+      "Age in years",
+      "Height in centimeters",
+      "Yes/No response",
+      "Income bracket"
+    ],
+    "correct": "Yes/No response",
+    "explanation": "A binary variable is a variable with only two possible outcomes, like yes/no or true/false.",
+    "category": "Variable Types",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST024",
+    "question": "What type of variable represents a measurable quantity expressed as numbers?",
+    "answers": [
+      "Categorical variable",
+      "Nominal variable",
+      "Ordinal variable",
+      "Numerical variable"
+    ],
+    "correct": "Numerical variable",
+    "explanation": "A numerical variable, also called a quantitative variable, represents a measurable quantity expressed as numbers.",
+    "category": "Variable Types",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST025",
+    "question": "Which measure indicates the value below which a given percentage of observations fall?",
+    "answers": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Percentile"
+    ],
+    "correct": "Percentile",
+    "explanation": "A percentile is a measure indicating the value below which a given percentage of observations fall.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST026",
+    "question": "What is the term for the proportion or percentage of times a value occurs in a dataset?",
+    "answers": [
+      "Absolute frequency",
+      "Cumulative frequency",
+      "Relative frequency",
+      "Frequency distribution"
+    ],
+    "correct": "Relative frequency",
+    "explanation": "Relative frequency is the proportion or percentage of times a value occurs in a dataset.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST027",
+    "question": "Which graph shows the relationship between two numerical variables, with each point representing a pair of values?",
+    "answers": [
+      "Bar chart",
+      "Histogram",
+      "Scatterplot",
+      "Box plot"
+    ],
+    "correct": "Scatterplot",
+    "explanation": "A scatterplot is a graph that shows the relationship between two numerical variables, with each point representing a pair of values.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST028",
+    "question": "What is the term for the measure of asymmetry of a distribution?",
+    "answers": [
+      "Kurtosis",
+      "Variance",
+      "Skewness",
+      "Range"
+    ],
+    "correct": "Skewness",
+    "explanation": "Skewness is a measure of the asymmetry of a distribution. Positive skew means the tail is on the right, negative skew means the tail is on the left.",
+    "category": "Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST029",
+    "question": "Which of the following best describes a stem and leaf plot?",
+    "answers": [
+      "A graph showing the relationship between two variables",
+      "A circular representation of data categories",
+      "A method of displaying numerical data where each value is split into a 'stem' and a 'leaf'",
+      "A plot showing the distribution of data over time"
+    ],
+    "correct": "A method of displaying numerical data where each value is split into a 'stem' and a 'leaf'",
+    "explanation": "A stem and leaf plot is a method of displaying numerical data where each value is split into a 'stem' (the leading digit(s)) and a 'leaf' (usually the final digit).",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST030",
+    "question": "What does the five-number summary consist of?",
+    "answers": [
+      "Mean, median, mode, range, and standard deviation",
+      "Minimum, first quartile (Q1), median, third quartile (Q3), and maximum",
+      "Mean, variance, skewness, kurtosis, and range",
+      "Minimum, maximum, mean, median, and mode"
+    ],
+    "correct": "Minimum, first quartile (Q1), median, third quartile (Q3), and maximum",
+    "explanation": "The five-number summary consists of the minimum, first quartile (Q1), median, third quartile (Q3), and maximum of a dataset.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST031",
+    "question": "What is anecdotal evidence?",
+    "answers": [
+      "Statistical data collected through surveys",
+      "Personal stories or isolated examples used to support a claim",
+      "Evidence derived from controlled experiments",
+      "Data analyzed using inferential statistics"
+    ],
+    "correct": "Personal stories or isolated examples used to support a claim",
+    "explanation": "Anecdotal evidence refers to personal stories or isolated examples used to support a claim. While interesting, it's not considered reliable for making broad conclusions.",
+    "category": "Basic Concepts",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST032",
+    "question": "Which term describes the relationship between two variables where changes in one directly bring about changes in another?",
+    "answers": [
+      "Association",
+      "Correlation",
+      "Causation",
+      "Confounding"
+    ],
+    "correct": "Causation",
+    "explanation": "Causation occurs when changes in one variable directly bring about changes in another. It's stronger than just association.",
+    "category": "Basic Concepts",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST033",
+    "question": "What is a qualitative variable?",
+    "answers": [
+      "A variable that represents numerical measurements",
+      "Another term for a categorical variable",
+      "A variable with an infinite number of possible values",
+      "A variable that only takes on binary values"
+    ],
+    "correct": "Another term for a categorical variable",
+    "explanation": "A qualitative variable is another term for a categorical variable, which can take on one of a limited number of possible values representing different categories.",
+    "category": "Variable Types",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST034",
+    "question": "What does probability measure?",
+    "answers": [
+      "The central tendency of a dataset",
+      "The spread of a distribution",
+      "The likelihood of an event occurring",
+      "The relationship between two variables"
+    ],
+    "correct": "The likelihood of an event occurring",
+    "explanation": "Probability is a measure of the likelihood of an event occurring, expressed as a number between 0 and 1.",
+    "category": "Basic Concepts",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST035",
+    "question": "Which of the following best describes a statistic?",
+    "answers": [
+      "A characteristic of an entire population",
+      "A numerical value that describes a characteristic of a sample",
+      "A measure of probability",
+      "A type of graphical display"
+    ],
+    "correct": "A numerical value that describes a characteristic of a sample",
+    "explanation": "A statistic is a numerical value that describes a characteristic of a sample, as opposed to a parameter, which describes a characteristic of an entire population.",
+    "category": "Basic Concepts",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST036",
+    "question": "What is the purpose of statistical inference?",
+    "answers": [
+      "To collect data from a population",
+      "To create graphical displays of data",
+      "To calculate descriptive statistics",
+      "To draw conclusions about a population based on sample data"
+    ],
+    "correct": "To draw conclusions about a population based on sample data",
+    "explanation": "Statistical inference is the process of drawing conclusions about a population based on data from a sample.",
+    "category": "Statistical Methods",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST037",
+    "question": "Which of the following is an example of a nominal variable?",
+    "answers": [
+      "Age in years",
+      "Income levels (low, medium, high)",
+      "Satisfaction rating (1 to 5 stars)",
+      "Eye color"
+    ],
+    "correct": "Eye color",
+    "explanation": "A nominal variable is a type of categorical variable where the categories have no natural order. Eye color is an example of a nominal variable.",
+    "category": "Variable Types",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST038",
+    "question": "What is a density plot?",
+    "answers": [
+      "A plot showing the relationship between two variables",
+      "A smoothed, continuous version of a histogram",
+      "A graphical representation of a contingency table",
+      "A plot displaying the five-number summary"
+    ],
+    "correct": "A smoothed, continuous version of a histogram",
+    "explanation": "A density plot is a smoothed, continuous version of a histogram, useful for visualizing the distribution of a dataset.",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST039",
+    "question": "What does the term 'dispersion' refer to in statistics?",
+    "answers": [
+      "The center of a distribution",
+      "The shape of a dataset",
+      "The spread or variability of a dataset around its center",
+      "The relationship between two variables"
+    ],
+    "correct": "The spread or variability of a dataset around its center",
+    "explanation": "Dispersion refers to the spread or variability of a dataset around its center.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST040",
+    "question": "What is a dot plot?",
+    "answers": [
+      "A graph showing the relationship between two numerical variables",
+      "A circular graph dividing a whole into parts",
+      "A simple plot where each data point is represented by a dot above its value on a number line",
+      "A graph showing the change in a variable over time"
+    ],
+    "correct": "A simple plot where each data point is represented by a dot above its value on a number line",
+    "explanation": "A dot plot is a simple plot where each data point is represented by a dot above its value on a number line.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST041",
+    "question": "What does the interquartile range (IQR) measure?",
+    "answers": [
+      "The difference between the largest and smallest values in a dataset",
+      "The average deviation from the mean",
+      "The middle 50% of the data",
+      "The skewness of a distribution"
+    ],
+    "correct": "The middle 50% of the data",
+    "explanation": "The interquartile range (IQR) is a measure of variability based on dividing a dataset into quartiles. It represents the middle 50% of the data and is calculated as Q3 - Q1.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST042",
+    "question": "Which of the following best describes the mode of a dataset?",
+    "answers": [
+      "The middle value when the data is ordered",
+      "The average of all values",
+      "The most frequently occurring value",
+      "The difference between the largest and smallest values"
+    ],
+    "correct": "The most frequently occurring value",
+    "explanation": "The mode is the most frequently occurring value in a dataset.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST043",
+    "question": "What is the primary purpose of a pie chart?",
+    "answers": [
+      "To show the distribution of a numerical variable",
+      "To compare values across different categories",
+      "To show how a whole is divided into parts",
+      "To display the relationship between two variables"
+    ],
+    "correct": "To show how a whole is divided into parts",
+    "explanation": "A pie chart is a circular graph that shows how a whole is divided into parts, with each slice representing a category's proportion.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST044",
+    "question": "What does a positive skew in a distribution indicate?",
+    "answers": [
+      "The data is symmetrically distributed",
+      "The tail of the distribution is on the left side",
+      "The tail of the distribution is on the right side",
+      "The data has no outliers"
+    ],
+    "correct": "The tail of the distribution is on the right side",
+    "explanation": "Skewness is a measure of the asymmetry of a distribution. Positive skew means the tail of the distribution is on the right side.",
+    "category": "Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST045",
+    "question": "What is the primary difference between a parameter and a statistic?",
+    "answers": [
+      "Parameters are calculated from sample data, while statistics describe populations",
+      "Parameters describe populations, while statistics are calculated from sample data",
+      "Parameters are always normally distributed, while statistics can have any distribution",
+      "Parameters are used in inferential statistics, while statistics are used in descriptive statistics"
+    ],
+    "correct": "Parameters describe populations, while statistics are calculated from sample data",
+    "explanation": "A parameter is a numerical value that describes a characteristic of an entire population, while a statistic is a numerical value calculated from sample data to estimate a population parameter.",
+    "category": "Basic Concepts",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST046",
+    "question": "Which of the following best describes a confounding variable?",
+    "answers": [
+      "A variable that is intentionally manipulated in an experiment",
+      "The outcome variable in a study",
+      "An outside variable that affects the relationship between the variables being studied",
+      "A variable that has no effect on the study results"
+    ],
+    "correct": "An outside variable that affects the relationship between the variables being studied",
+    "explanation": "A confounding variable is an outside variable that affects the relationship between the variables being studied, potentially leading to incorrect conclusions.",
+    "category": "Research Methods",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST047",
+    "question": "What is the purpose of a random sample in statistical studies?",
+    "answers": [
+      "To ensure that every member of the population is included",
+      "To make data collection easier and faster",
+      "To give each member of the population an equal chance of being selected",
+      "To intentionally exclude certain groups from the study"
+    ],
+    "correct": "To give each member of the population an equal chance of being selected",
+    "explanation": "A random sample is a sample where each member of the population has an equal chance of being selected. This helps ensure that the sample is representative of the population.",
+    "category": "Sampling Methods",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST048",
+    "question": "In a study, which variable is considered the response variable?",
+    "answers": [
+      "The variable that is manipulated by the researcher",
+      "The variable that may explain changes in another variable",
+      "The outcome variable that may change in response to other variables",
+      "Any variable that is measured in the study"
+    ],
+    "correct": "The outcome variable that may change in response to other variables",
+    "explanation": "The response variable, also known as the dependent variable, is the outcome variable in a study, which may change in response to the explanatory variable.",
+    "category": "Variable Types",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST049",
+    "question": "What is the primary purpose of a survey in statistical research?",
+    "answers": [
+      "To manipulate variables in a controlled environment",
+      "To collect data from every member of a population",
+      "To analyze existing data sets",
+      "To gather information by asking questions to a sample of individuals from a population"
+    ],
+    "correct": "To gather information by asking questions to a sample of individuals from a population",
+    "explanation": "A survey is a method of data collection that involves asking questions to a sample of individuals from a population to gather information about characteristics, opinions, or behaviors.",
+    "category": "Data Collection",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST050",
+    "question": "Which of the following best describes the concept of 'center' in statistics?",
+    "answers": [
+      "The range of a dataset",
+      "The spread of a distribution",
+      "A measure of the typical or middle value in a dataset",
+      "The shape of a probability distribution"
+    ],
+    "correct": "A measure of the typical or middle value in a dataset",
+    "explanation": "In statistics, the center refers to a measure of the typical or middle value in a dataset, often represented by the mean or median.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST051",
+    "question": "What does a box plot (also known as a box-and-whisker plot) display?",
+    "answers": [
+      "The frequency distribution of a dataset",
+      "The relationship between two variables",
+      "The five-number summary of a dataset",
+      "The probability distribution of a random variable"
+    ],
+    "correct": "The five-number summary of a dataset",
+    "explanation": "A box plot is a graphical display of the five-number summary of a dataset, showing the distribution's shape, central tendency, and variability.",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST052",
+    "question": "What is the main difference between descriptive and inferential statistics?",
+    "answers": [
+      "Descriptive statistics use graphs, while inferential statistics use numbers",
+      "Descriptive statistics summarize data, while inferential statistics draw conclusions about populations",
+      "Descriptive statistics are more accurate than inferential statistics",
+      "Inferential statistics are only used for large datasets, while descriptive statistics are for small datasets"
+    ],
+    "correct": "Descriptive statistics summarize data, while inferential statistics draw conclusions about populations",
+    "explanation": "Descriptive statistics are methods used to summarize and describe the main features of a dataset, while inferential statistics are methods used to draw conclusions about a population based on data from a sample.",
+    "category": "Statistical Methods",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST053",
+    "question": "What type of graph would be most appropriate to show the change in a company's stock price over time?",
+    "answers": [
+      "Bar chart",
+      "Pie chart",
+      "Time series plot",
+      "Scatterplot"
+    ],
+    "correct": "Time series plot",
+    "explanation": "A time series plot is a graph that displays data points at successive time intervals, making it ideal for showing how a variable, like stock price, changes over time.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST054",
+    "question": "Which measure of spread is most affected by extreme values or outliers?",
+    "answers": [
+      "Interquartile range (IQR)",
+      "Range",
+      "Standard deviation",
+      "Median absolute deviation"
+    ],
+    "correct": "Range",
+    "explanation": "The range, which is the difference between the maximum and minimum values in a dataset, is the measure of spread most affected by extreme values or outliers.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST055",
+    "question": "What does a stem and leaf plot allow you to do that a simple list of numbers doesn't?",
+    "answers": [
+      "Calculate the mean more easily",
+      "Identify the median value quickly",
+      "Visualize the shape of the distribution",
+      "Determine the probability of specific outcomes"
+    ],
+    "correct": "Visualize the shape of the distribution",
+    "explanation": "A stem and leaf plot allows you to visualize the shape of the distribution of a dataset, which is not easily done with a simple list of numbers.",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST056",
+    "question": "In the context of probability, what does the complement of an event represent?",
+    "answers": [
+      "The probability of the event occurring",
+      "The probability of the event not occurring",
+      "The sum of all possible outcomes",
+      "The average outcome of multiple trials"
+    ],
+    "correct": "The probability of the event not occurring",
+    "explanation": "In probability theory, the complement of an event represents the probability of the event not occurring. If P(A) is the probability of event A, then P(A') = 1 - P(A) is the probability of its complement.",
+    "category": "Probability",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST057",
+    "question": "What is the primary purpose of a contingency table?",
+    "answers": [
+      "To display the distribution of a single categorical variable",
+      "To show the relationship between two numerical variables",
+      "To display the frequencies of two categorical variables simultaneously",
+      "To calculate the correlation between two variables"
+    ],
+    "correct": "To display the frequencies of two categorical variables simultaneously",
+    "explanation": "A contingency table is used to display the frequencies of two categorical variables simultaneously, allowing for the study of their relationship.",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST058",
+    "question": "What does a negatively skewed distribution look like?",
+    "answers": [
+      "The tail of the distribution extends to the right",
+      "The tail of the distribution extends to the left",
+      "The distribution is perfectly symmetrical",
+      "The distribution has two distinct peaks"
+    ],
+    "correct": "The tail of the distribution extends to the left",
+    "explanation": "In a negatively skewed distribution, the tail of the distribution extends to the left, meaning there are more extreme values on the left side of the distribution.",
+    "category": "Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST059",
+    "question": "What is the main advantage of using the median as a measure of center instead of the mean?",
+    "answers": [
+      "The median is always larger than the mean",
+      "The median is less affected by extreme values or outliers",
+      "The median can be calculated for categorical data",
+      "The median provides information about the spread of the data"
+    ],
+    "correct": "The median is less affected by extreme values or outliers",
+    "explanation": "The main advantage of using the median as a measure of center is that it is less affected by extreme values or outliers compared to the mean, making it a more robust measure of central tendency.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST060",
+    "question": "In a normal distribution, approximately what percentage of the data falls within one standard deviation of the mean?",
+    "answers": [
+      "50%",
+      "68%",
+      "95%",
+      "99.7%"
+    ],
+    "correct": "68%",
+    "explanation": "In a normal distribution, approximately 68% of the data falls within one standard deviation of the mean. This is known as the 68-95-99.7 rule or the empirical rule.",
+    "category": "Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST061",
+    "question": "What is the purpose of a histogram?",
+    "answers": [
+      "To show the relationship between two variables",
+      "To display categorical data",
+      "To represent the distribution of a numerical variable",
+      "To compare multiple datasets simultaneously"
+    ],
+    "correct": "To represent the distribution of a numerical variable",
+    "explanation": "A histogram is a graphical representation of the distribution of numerical data, where rectangles represent the frequency of data falling within certain intervals or bins.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST062",
+    "question": "Which of the following best describes a quantitative variable?",
+    "answers": [
+      "A variable that represents categories or labels",
+      "A variable that can only take on two possible values",
+      "A variable that represents a measurable quantity expressed as numbers",
+      "A variable that describes qualities but not quantities"
+    ],
+    "correct": "A variable that represents a measurable quantity expressed as numbers",
+    "explanation": "A quantitative variable, also called a numerical variable, represents a measurable quantity expressed as numbers.",
+    "category": "Variable Types",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST063",
+    "question": "What does the standard deviation measure?",
+    "answers": [
+      "The center of a distribution",
+      "The shape of a distribution",
+      "The average distance between data points and the mean",
+      "The total range of the data"
+    ],
+    "correct": "The average distance between data points and the mean",
+    "explanation": "The standard deviation is a measure of variability that indicates the average distance between data points and the mean of the dataset.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST064",
+    "question": "In a study, researchers want to determine if a new teaching method improves test scores. What type of variable would 'teaching method' be?",
+    "answers": [
+      "Response variable",
+      "Explanatory variable",
+      "Confounding variable",
+      "Control variable"
+    ],
+    "correct": "Explanatory variable",
+    "explanation": "In this study, the teaching method would be the explanatory variable (also known as the independent variable) because it's the factor being manipulated to observe its effect on the response variable (test scores).",
+    "category": "Research Methods",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST065",
+    "question": "What is the primary purpose of creating a scatterplot?",
+    "answers": [
+      "To show the distribution of a single variable",
+      "To compare frequencies of different categories",
+      "To display changes in a variable over time",
+      "To visualize the relationship between two numerical variables"
+    ],
+    "correct": "To visualize the relationship between two numerical variables",
+    "explanation": "A scatterplot is used to visualize the relationship between two numerical variables, with each point representing a pair of values.",
+    "category": "Data Visualization",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST066",
+    "question": "What does high kurtosis in a distribution indicate?",
+    "answers": [
+      "The distribution is perfectly symmetrical",
+      "The distribution has a flat top",
+      "The distribution has heavy tails and a sharp peak",
+      "The distribution is bimodal"
+    ],
+    "correct": "The distribution has heavy tails and a sharp peak",
+    "explanation": "High kurtosis indicates that a distribution has heavy tails (more extreme values) and a sharp peak compared to a normal distribution.",
+    "category": "Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST067",
+    "question": "What is the difference between a population parameter and a sample statistic?",
+    "answers": [
+      "They are different names for the same concept",
+      "Population parameters are always larger than sample statistics",
+      "Population parameters describe the entire population, while sample statistics describe a subset",
+      "Sample statistics are more accurate than population parameters"
+    ],
+    "correct": "Population parameters describe the entire population, while sample statistics describe a subset",
+    "explanation": "Population parameters are numerical values that describe characteristics of an entire population, while sample statistics are calculated from a subset (sample) of the population to estimate these parameters.",
+    "category": "Basic Concepts",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST068",
+    "question": "What is the main purpose of inferential statistics?",
+    "answers": [
+      "To organize and summarize data",
+      "To create visually appealing graphs",
+      "To draw conclusions about a population based on sample data",
+      "To collect data from every member of a population"
+    ],
+    "correct": "To draw conclusions about a population based on sample data",
+    "explanation": "Inferential statistics are methods used to draw conclusions about a population based on data from a sample.",
+    "category": "Statistical Methods",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST069",
+    "question": "Which of the following is an example of a discrete variable?",
+    "answers": [
+      "Height of students in a class",
+      "Time taken to complete a task",
+      "Number of children in a family",
+      "Temperature in degrees Celsius"
+    ],
+    "correct": "Number of children in a family",
+    "explanation": "A discrete variable can only take on specific, countable values. The number of children in a family is discrete because it can only be a whole number.",
+    "category": "Variable Types",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST070",
+    "question": "What does a correlation coefficient of -0.9 indicate about the relationship between two variables?",
+    "answers": [
+      "A strong positive linear relationship",
+      "A weak negative linear relationship",
+      "A strong negative linear relationship",
+      "No linear relationship"
+    ],
+    "correct": "A strong negative linear relationship",
+    "explanation": "A correlation coefficient ranges from -1 to 1. A value of -0.9 indicates a strong negative linear relationship between the two variables.",
+    "category": "Correlation and Regression",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST071",
+    "question": "What is the purpose of randomization in experimental design?",
+    "answers": [
+      "To ensure all participants receive the same treatment",
+      "To reduce the sample size needed",
+      "To eliminate the need for a control group",
+      "To control for confounding variables and reduce bias"
+    ],
+    "correct": "To control for confounding variables and reduce bias",
+    "explanation": "Randomization in experimental design helps to control for confounding variables and reduce bias by ensuring that any differences between groups are due to chance rather than systematic factors.",
+    "category": "Research Methods",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST072",
+    "question": "What is the primary difference between a bar graph and a histogram?",
+    "answers": [
+      "Bar graphs are always vertical, while histograms are always horizontal",
+      "Bar graphs are used for categorical data, while histograms are used for numerical data",
+      "Histograms always show percentages, while bar graphs show frequencies",
+      "Bar graphs use lines, while histograms use rectangles"
+    ],
+    "correct": "Bar graphs are used for categorical data, while histograms are used for numerical data",
+    "explanation": "The main difference is that bar graphs are used to display categorical data, while histograms are used to show the distribution of numerical data.",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST073",
+    "question": "In a normal distribution, what percentage of the data falls within two standard deviations of the mean?",
+    "answers": [
+      "68%",
+      "95%",
+      "99.7%",
+      "50%"
+    ],
+    "correct": "95%",
+    "explanation": "In a normal distribution, approximately 95% of the data falls within two standard deviations of the mean. This is part of the 68-95-99.7 rule.",
+    "category": "Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST074",
+    "question": "What is the purpose of a p-value in hypothesis testing?",
+    "answers": [
+      "To determine the sample size needed for a study",
+      "To calculate the mean of a dataset",
+      "To measure the strength of a correlation",
+      "To assess the statistical significance of results"
+    ],
+    "correct": "To assess the statistical significance of results",
+    "explanation": "In hypothesis testing, the p-value is used to assess the statistical significance of results. It represents the probability of obtaining results at least as extreme as those observed, assuming the null hypothesis is true.",
+    "category": "Inferential Statistics",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST075",
+    "question": "What does the law of large numbers state?",
+    "answers": [
+      "Larger samples always produce more accurate results",
+      "The sample mean approaches the population mean as the sample size increases",
+      "Larger populations are more difficult to study than smaller ones",
+      "Statistical analysis is only valid for large datasets"
+    ],
+    "correct": "The sample mean approaches the population mean as the sample size increases",
+    "explanation": "The law of large numbers states that as the sample size increases, the sample mean tends to approach the true population mean.",
+    "category": "Probability and Sampling",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST076",
+    "question": "What is the primary purpose of a box plot (box-and-whisker plot)?",
+    "answers": [
+      "To show the exact distribution of all data points",
+      "To compare the means of multiple datasets",
+      "To display the five-number summary and identify potential outliers",
+      "To visualize the correlation between two variables"
+    ],
+    "correct": "To display the five-number summary and identify potential outliers",
+    "explanation": "A box plot (box-and-whisker plot) is used to display the five-number summary (minimum, Q1, median, Q3, maximum) of a dataset and to identify potential outliers.",
+    "category": "Data Visualization",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST077",
+    "question": "In a normal distribution, what is the relationship between the mean, median, and mode?",
+    "answers": [
+      "The mean is always larger than the median and mode",
+      "The median is always larger than the mean and mode",
+      "The mode is always larger than the mean and median",
+      "The mean, median, and mode are all equal"
+    ],
+    "correct": "The mean, median, and mode are all equal",
+    "explanation": "In a perfectly normal distribution, the mean, median, and mode are all equal, forming the central peak of the symmetric bell-shaped curve.",
+    "category": "Distributions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST078",
+    "question": "What does a Type I error represent in hypothesis testing?",
+    "answers": [
+      "Failing to reject the null hypothesis when it is false",
+      "Rejecting the null hypothesis when it is true",
+      "Correctly rejecting the null hypothesis",
+      "Correctly failing to reject the null hypothesis"
+    ],
+    "correct": "Rejecting the null hypothesis when it is true",
+    "explanation": "A Type I error occurs when we reject the null hypothesis when it is actually true. It's often described as a 'false positive'.",
+    "category": "Inferential Statistics",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST079",
+    "question": "What is the purpose of stratified sampling?",
+    "answers": [
+      "To ensure that every member of the population is included in the sample",
+      "To divide the population into homogeneous subgroups before sampling",
+      "To select sample members in a systematic, evenly-spaced way",
+      "To choose sample members based on their availability"
+    ],
+    "correct": "To divide the population into homogeneous subgroups before sampling",
+    "explanation": "Stratified sampling involves dividing the population into homogeneous subgroups (strata) before sampling. This ensures that the sample is representative of the population with respect to certain characteristics.",
+    "category": "Sampling Methods",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST080",
+    "question": "What does the Central Limit Theorem state?",
+    "answers": [
+      "All populations are normally distributed",
+      "The sample size must always be large for accurate results",
+      "The sampling distribution of the sample mean approaches a normal distribution as sample size increases",
+      "The population mean is always equal to the sample mean"
+    ],
+    "correct": "The sampling distribution of the sample mean approaches a normal distribution as sample size increases",
+    "explanation": "The Central Limit Theorem states that the sampling distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the shape of the population distribution.",
+    "category": "Sampling Distributions",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST081",
+    "question": "What is the primary difference between correlation and causation?",
+    "answers": [
+      "Correlation is always stronger than causation",
+      "Causation always implies correlation, but correlation does not imply causation",
+      "Correlation can only be positive, while causation can be positive or negative",
+      "Causation is easier to establish than correlation"
+    ],
+    "correct": "Causation always implies correlation, but correlation does not imply causation",
+    "explanation": "While causation always implies correlation, the presence of a correlation does not necessarily imply causation. Other factors, like confounding variables, could be responsible for the observed relationship.",
+    "category": "Correlation and Causation",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST082",
+    "question": "What is the purpose of a residual plot in regression analysis?",
+    "answers": [
+      "To visualize the original data points",
+      "To calculate the correlation coefficient",
+      "To check the linearity and homoscedasticity assumptions",
+      "To determine the slope of the regression line"
+    ],
+    "correct": "To check the linearity and homoscedasticity assumptions",
+    "explanation": "A residual plot is used in regression analysis to check the linearity and homoscedasticity (constant variance) assumptions. It helps identify patterns that may indicate violations of these assumptions.",
+    "category": "Regression Analysis",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST083",
+    "question": "What does a confidence interval provide?",
+    "answers": [
+      "The exact value of a population parameter",
+      "The probability that a sample statistic is correct",
+      "A range of plausible values for a population parameter",
+      "The margin of error in a survey"
+    ],
+    "correct": "A range of plausible values for a population parameter",
+    "explanation": "A confidence interval provides a range of plausible values for a population parameter, based on sample data and a specified level of confidence.",
+    "category": "Inferential Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST084",
+    "question": "What is the primary purpose of a control group in an experiment?",
+    "answers": [
+      "To increase the sample size",
+      "To provide a basis for comparison",
+      "To ensure the experiment is double-blind",
+      "To represent the entire population"
+    ],
+    "correct": "To provide a basis for comparison",
+    "explanation": "The primary purpose of a control group in an experiment is to provide a basis for comparison. It allows researchers to isolate the effect of the treatment or intervention being studied.",
+    "category": "Experimental Design",
+    "difficulty": "Easy"
+  },
+  {
+    "questionId": "ST085",
+    "question": "What does a z-score represent?",
+    "answers": [
+      "The probability of an event occurring",
+      "The number of standard deviations a data point is from the mean",
+      "The correlation between two variables",
+      "The slope of a regression line"
+    ],
+    "correct": "The number of standard deviations a data point is from the mean",
+    "explanation": "A z-score represents the number of standard deviations a data point is away from the mean. It allows for standardization and comparison across different distributions.",
+    "category": "Descriptive Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST086",
+    "question": "In a right-skewed distribution, how does the mean typically compare to the median?",
+    "answers": [
+      "The mean is usually less than the median",
+      "The mean is usually greater than the median",
+      "The mean and median are always equal",
+      "There is no consistent relationship between the mean and median"
+    ],
+    "correct": "The mean is usually greater than the median",
+    "explanation": "In a right-skewed distribution, the mean is typically greater than the median. This is because the mean is pulled toward the tail (the right side in this case) by extreme values.",
+    "category": "Distributions",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST087",
+    "question": "What is the purpose of a two-sample t-test?",
+    "answers": [
+      "To compare the variances of two populations",
+      "To test for a linear relationship between two variables",
+      "To compare the means of two populations",
+      "To check if a dataset is normally distributed"
+    ],
+    "correct": "To compare the means of two populations",
+    "explanation": "A two-sample t-test is used to compare the means of two populations, typically to determine if there is a significant difference between them.",
+    "category": "Inferential Statistics",
+    "difficulty": "Medium"
+  },
+  {
+    "questionId": "ST088",
+    "question": "What does multicollinearity in regression analysis refer to?",
+    "answers": [
+      "The presence of outliers in the dataset",
+      "A high correlation between predictor variables",
+      "A non-linear relationship between variables",
+      "Unequal variances across the range of a predictor variable"
+    ],
+    "correct": "A high correlation between predictor variables",
+    "explanation": "Multicollinearity in regression analysis refers to a situation where there is a high correlation between predictor variables. This can lead to unreliable and unstable estimates of regression coefficients.",
+    "category": "Regression Analysis",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST089",
+    "question": "What is the primary purpose of a chi-square test for independence?",
+    "answers": [
+      "To compare the means of two groups",
+      "To test for a linear relationship between two variables",
+      "To determine if there is a significant association between two categorical variables",
+      "To check if a dataset follows a normal distribution"
+    ],
+    "correct": "To determine if there is a significant association between two categorical variables",
+    "explanation": "A chi-square test for independence is primarily used to determine if there is a significant association between two categorical variables in a population.",
+    "category": "Inferential Statistics",
+    "difficulty": "Hard"
+  },
+  {
+    "questionId": "ST090",
+    "question": "What does the coefficient of determination (R-squared) represent in regression analysis?",
+    "answers": [
+      "The slope of the regression line",
+      "The correlation between the variables",
+      "The proportion of variance in the dependent variable explained by the independent variable(s)",
+      "The probability that the regression model is correct"
+    ],
+    "correct": "The proportion of variance in the dependent variable explained by the independent variable(s)",
+    "explanation": "The coefficient of determination (R-squared) represents the proportion of variance in the dependent variable that is predictable from the independent variable(s) in a regression model.",
+    "category": "Regression Analysis",
+    "difficulty": "Hard"
+  }
+  
+]
